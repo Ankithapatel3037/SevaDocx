@@ -1,0 +1,68 @@
+[
+  {
+    "id": "certificates",
+    "name": "Certificates",
+    "icon": "FileCheck",
+    "description": "Income, Caste, Residence, Birth, Death & Revenue Certificates"
+  },
+  {
+    "id": "identity",
+    "name": "Identity & Civic",
+    "icon": "CreditCard",
+    "description": "Aadhaar, PAN, Voter ID, Ration Card, Passport & Civic IDs"
+  },
+  {
+    "id": "education",
+    "name": "Education & Scholarships",
+    "icon": "GraduationCap",
+    "description": "Post-matric scholarships, fee reimbursement & bonafide"
+  },
+  {
+    "id": "jobs",
+    "name": "Jobs & Recruitment",
+    "icon": "Briefcase",
+    "description": "TSPSC, APPSC, UPSC, SSC, RRB & Employment Exchange"
+  },
+  {
+    "id": "land-property",
+    "name": "Land & Property",
+    "icon": "Building2",
+    "description": "Land registration, EC, Pahani/Adangal, Mutation & Taxes"
+  },
+  {
+    "id": "loans-finance",
+    "name": "Loans & Finance",
+    "icon": "Coins",
+    "description": "Kisan Credit Card, Mudra, Education Loan & PM Vishwakarma"
+  },
+  {
+    "id": "transport",
+    "name": "Transport & Utilities",
+    "icon": "Car",
+    "description": "Driving Licence, RC, Electricity & Water connections"
+  },
+  {
+    "id": "welfare-pensions",
+    "name": "Social Welfare & Pensions",
+    "icon": "HeartHandshake",
+    "description": "Aasara/YSR pensions, UDID, PM-KISAN, Rythu Bandhu & PMAY"
+  },
+  {
+    "id": "health",
+    "name": "Health",
+    "icon": "Activity",
+    "description": "Ayushman Bharat, Aarogyasri, Health Cards & Hospital registration"
+  },
+  {
+    "id": "business",
+    "name": "Business & Employment",
+    "icon": "Store",
+    "description": "Udyam MSME, GST, Trade licence, FSSAI & e-Shram"
+  },
+  {
+    "id": "legal-police",
+    "name": "Legal & Police",
+    "icon": "Scale",
+    "description": "Police Clearance, e-FIR, RTI Application & Notary requirements"
+  }
+]

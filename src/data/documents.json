@@ -1,0 +1,154 @@
+[
+  {
+    "document_id": "doc_aadhaar",
+    "document_name": "Aadhaar Card",
+    "description": "12-digit Unique Identification Authority of India (UIDAI) identity card or masked e-Aadhaar.",
+    "category": "Identity",
+    "accepted_examples": ["Original Aadhaar Card", "e-Aadhaar downloaded from UIDAI with verified digital signature", "Aadhaar PVC card"],
+    "typical_validity": "Lifetime (update photo/biometrics as advised)"
+  },
+  {
+    "document_id": "doc_pan",
+    "document_name": "PAN Card",
+    "description": "Permanent Account Number card issued by the Income Tax Department of India.",
+    "category": "Identity & Tax",
+    "accepted_examples": ["Physical laminated PAN Card", "e-PAN card generated via NSDL/UTIITSL with QR code"],
+    "typical_validity": "Lifetime"
+  },
+  {
+    "document_id": "doc_ration_card",
+    "document_name": "Ration Card / Food Security Card",
+    "description": "State civil supplies card indicating family household details and BPL/APL/Antyodaya status.",
+    "category": "Family & Welfare",
+    "accepted_examples": ["Telangana/AP Food Security Card (FSC)", "White Ration Card", "Smart Ration Card / e-Ration extract"],
+    "typical_validity": "Subject to state annual renewal or revision"
+  },
+  {
+    "document_id": "doc_voter_id",
+    "document_name": "Voter ID Card (EPIC)",
+    "description": "Electoral Photo Identity Card issued by the Election Commission of India (ECI).",
+    "category": "Identity & Address",
+    "accepted_examples": ["Color Voter ID Card", "e-EPIC downloaded from voters.eci.gov.in with QR code"],
+    "typical_validity": "Lifetime"
+  },
+  {
+    "document_id": "doc_passport_photo",
+    "document_name": "Passport Size Photographs",
+    "description": "Recent color photograph with white or light off-white background, frontal view, neutral expression.",
+    "category": "Photo",
+    "accepted_examples": ["3.5cm x 4.5cm color photo taken within last 6 months", "Digital JPEG image under 50-100KB for online portals"],
+    "typical_validity": "Recent (within last 3 to 6 months)"
+  },
+  {
+    "document_id": "doc_income_cert",
+    "document_name": "Income Certificate",
+    "description": "Official certificate issued by Revenue Department / Tahsildar / MeeSeva certifying annual family income.",
+    "category": "Revenue Certificate",
+    "accepted_examples": ["Digitally signed MeeSeva / MeeSeva 2.0 Income Certificate with Application Number & Barcode", "Revenue Tahsildar signed certificate"],
+    "typical_validity": "Usually 1 year from date of issue in Telangana / Andhra Pradesh"
+  },
+  {
+    "document_id": "doc_caste_cert",
+    "document_name": "Caste / Integrated Community Certificate",
+    "description": "Certificate verifying SC / ST / BC / OBC caste identity issued by the competent revenue authority.",
+    "category": "Revenue Certificate",
+    "accepted_examples": ["Digitally signed Integrated Community Certificate from MeeSeva", "Tahsildar approved Caste Certificate with Barcode"],
+    "typical_validity": "Permanent / Lifetime (unless sub-categorization rules change; OBC-NCL typically renewed annually)"
+  },
+  {
+    "document_id": "doc_residence_cert",
+    "document_name": "Residence / Nativity / Domicile Certificate",
+    "description": "Proof of continuous stay in the respective village, mandal, district or state.",
+    "category": "Revenue Certificate",
+    "accepted_examples": ["MeeSeva Residence Certificate", "Tahsildar Nativity Certificate", "Study Certificate for consecutive 7-year period (educational domicile)"],
+    "typical_validity": "Generally 1 to 5 years depending on state rules"
+  },
+  {
+    "document_id": "doc_bonafide",
+    "document_name": "Bonafide / Study Certificate",
+    "description": "Institutional study certificate indicating class, academic year, medium of instruction and admission record.",
+    "category": "Academic",
+    "accepted_examples": ["Study/Bonafide Certificate on school/college official letterhead signed by Headmaster or Principal", "Continuous 4-7 years study certificates for local candidate status"],
+    "typical_validity": "Valid for the academic year of admission"
+  },
+  {
+    "document_id": "doc_bank_passbook",
+    "document_name": "Bank Account Passbook / Statement",
+    "description": "Front page of active savings bank account showing Account Number, IFSC code, and account holder name.",
+    "category": "Finance",
+    "accepted_examples": ["First page of Nationalized / Scheduled Commercial Bank Passbook with branch stamp", "Cancelled Cheque leaf with pre-printed applicant name", "Recent 3 months computerised bank statement signed by branch manager"],
+    "typical_validity": "Current active bank account (Aadhaar NPCI seeded for DBT subsidies)"
+  },
+  {
+    "document_id": "doc_birth_cert",
+    "document_name": "Birth Certificate",
+    "description": "Certificate issued by Municipality, Gram Panchayat or Registrar of Births and Deaths.",
+    "category": "Civil Registration",
+    "accepted_examples": ["Digital Birth Certificate with QR code from MeeSeva / Municipal Corporation (GHMC, CDMA)", "Hospital Institutional Birth Certificate endorsed by local registrar"],
+    "typical_validity": "Lifetime"
+  },
+  {
+    "document_id": "doc_death_cert",
+    "document_name": "Death Certificate",
+    "description": "Official record certifying demise of an individual issued by Municipal Corporation or Panchayat.",
+    "category": "Civil Registration",
+    "accepted_examples": ["Digitally signed Death Certificate from Registrar of Births and Deaths / MeeSeva"],
+    "typical_validity": "Lifetime"
+  },
+  {
+    "document_id": "doc_marks_memo",
+    "document_name": "SSC / 10th Class Marks Memo",
+    "description": "Secondary School Certificate showing student's full name, father's name, date of birth and roll number.",
+    "category": "Academic & Date of Birth",
+    "accepted_examples": ["Board of Secondary Education (Telangana / AP / CBSE / ICSE) Original Certificate / DigiLocker fetched Memo"],
+    "typical_validity": "Lifetime (standard proof of date of birth in India)"
+  },
+  {
+    "document_id": "doc_pattadar_passbook",
+    "document_name": "Pattadar Passbook / Dharani Title Deed",
+    "description": "Title deed passbook issued by Revenue Department establishing agricultural land ownership rights.",
+    "category": "Land Records",
+    "accepted_examples": ["Dharani Passbook with Khata Number (Telangana)", "e-Pattadar Passbook (Andhra Pradesh Meebhoomi)", "1-B extract with ROR digital sign"],
+    "typical_validity": "Valid until land alienation, sale, or partition"
+  },
+  {
+    "document_id": "doc_encumbrance_cert",
+    "document_name": "Encumbrance Certificate (EC)",
+    "description": "Certificate from Registration & Stamps Dept indicating all registered transactions/encumbrances over a property for a specified period.",
+    "category": "Land & Property",
+    "accepted_examples": ["Online digitally signed EC from IGRS Telangana (registration.telangana.gov.in) or AP IGRS"],
+    "typical_validity": "Valid for the transaction period requested (typically last 15-30 years)"
+  },
+  {
+    "document_id": "doc_electricity_bill",
+    "document_name": "Recent Electricity Bill / Utility Bill",
+    "description": "Recent electricity consumption bill showing unique consumer service number (USCNO) and installation address.",
+    "category": "Address Proof",
+    "accepted_examples": ["TSSPDCL / TSNPDCL / APCPDCL electricity bill paid within the last 2-3 months", "Municipal Water Supply bill"],
+    "typical_validity": "Within the last 3 months"
+  },
+  {
+    "document_id": "doc_disability_cert",
+    "document_name": "Disability Certificate / UDID Card",
+    "description": "Unique Disability ID card or SADAREM certificate certifying percentage and nature of permanent/temporary disability.",
+    "category": "Welfare & Health",
+    "accepted_examples": ["UDID Card (swavlambancard.gov.in)", "SADAREM Certificate issued by Medical Board with Assessment percentage"],
+    "typical_validity": "Permanent if lifelong disability; specified re-assessment date if temporary"
+  },
+  {
+    "document_id": "doc_self_declaration",
+    "document_name": "Self-Declaration / Affidavit",
+    "description": "Signed declaration by applicant stating facts under oath, on prescribed MeeSeva form or notary stamp paper.",
+    "category": "Legal",
+    "accepted_examples": ["Prescribed MeeSeva application self-declaration section signed by applicant", "Notarized affidavit on Non-Judicial stamp paper (Rs. 20 - 100)"],
+    "typical_validity": "Valid for the specific application purpose"
+  },
+  {
+    "document_id": "doc_signature",
+    "document_name": "Applicant Specimen Signature",
+    "description": "Scanned copy of applicant's signature made with black/blue ink pen on clean white paper.",
+    "category": "Authentication",
+    "accepted_examples": ["Clear JPG image under 20-50KB with clear handwriting", "Left-hand thumb impression (LTI) in case of non-literate applicant"],
+    "typical_validity": "Current"
+  }
+]

@@ -1,0 +1,1837 @@
+[
+  {
+    "service_id": "meeseva_income_cert",
+    "service_name": "Income Certificate",
+    "category": "certificates",
+    "department": "Revenue Department",
+    "portal_name": "MeeSeva Telangana / MeeSeva AP",
+    "jurisdiction": "Telangana",
+    "description": "Essential revenue certificate required for educational fee reimbursements, scholarships, subsidized ration cards, and state welfare schemes.",
+    "keywords": ["income", "aadhayam", "scholarship", "fee reimbursement", "epass", "revenue", "tahsildar", "meeseva"],
+    "eligibility": [
+      "Resident of Telangana / Andhra Pradesh with permanent family domicile",
+      "Applicant or head of family earning annual family income below specified state scheme ceiling limits",
+      "Must have valid Aadhaar card and active mobile number for OTP/SMS status updates"
+    ],
+    "documents": [
+      {
+        "document_id": "doc_aadhaar",
+        "document_name": "Aadhaar Card (Applicant & Family Members)",
+        "description": "Aadhaar card of the applicant and household earning members.",
+        "mandatory": true,
+        "accepted_examples": ["e-Aadhaar with verified digital signature", "Original Aadhaar Card"]
+      },
+      {
+        "document_id": "doc_ration_card",
+        "document_name": "Ration Card / Food Security Card",
+        "description": "Food Security Card / White Ration Card showing household member units.",
+        "mandatory": true,
+        "accepted_examples": ["Telangana FSC copy", "White Ration Card extract from epds.telangana.gov.in"]
+      },
+      {
+        "document_id": "doc_salary_slip",
+        "document_name": "Salary Certificate / IT Returns / Income Proof",
+        "description": "Salary slip from employer for salaried persons; Form 16 / ITR or agricultural income declaration for farmers.",
+        "mandatory": true,
+        "accepted_examples": ["Latest 3 months salary slip with company seal", "Self-declaration of income for daily wage / unorganized workers", "Pattadar passbook for agricultural income"]
+      },
+      {
+        "document_id": "doc_electricity_bill",
+        "document_name": "Recent Electricity Bill",
+        "description": "Electricity bill of applicant's residential address to verify living locality.",
+        "mandatory": false,
+        "accepted_examples": ["TSSPDCL / TSNPDCL consumer bill copy within last 3 months"]
+      },
+      {
+        "document_id": "doc_passport_photo",
+        "document_name": "Passport Size Photograph",
+        "description": "Recent passport photo of applicant.",
+        "mandatory": true,
+        "accepted_examples": ["Recent color photo with plain background"]
+      }
+    ],
+    "application_process": [
+      "Obtain and fill the MeeSeva Income Certificate application form online or from any MeeSeva centre.",
+      "Submit application with applicant Aadhaar, ration card, and income proof documents.",
+      "Pay the prescribed MeeSeva statutory service fee and collect the acknowledgment receipt with Application Number.",
+      "Application is routed electronically to the Mandal Revenue Officer (MRO) / Tahsildar / Revenue Inspector (RI).",
+      "Revenue Inspector conducts field enquiry or desktop verification of family economic status.",
+      "Upon approval by the Tahsildar, digitally signed certificate is issued. Download from the portal or collect printed watermarked copy from MeeSeva."
+    ],
+    "fees": "₹45 at MeeSeva Counter / ₹35 online portal charges",
+    "processing_time": "7 working days",
+    "application_url": "https://meeseva.telangana.gov.in",
+    "where_to_apply": "Nearest authorized MeeSeva Centre or MeeSeva 2.0 Citizen Portal",
+    "important_notes": [
+      "Income certificates in Telangana are valid for 1 year from the date of issuance.",
+      "For education scholarships (ePASS), ensure the student's name is accurately spelled as per SSC records.",
+      "Keep the Application Number safe to track real-time status online."
+    ],
+    "related_service_ids": ["meeseva_caste_cert", "epass_postmatric_scholarship", "meeseva_ews_cert"],
+    "last_verified": "2026-09-15",
+    "verification_status": "verified",
+    "popular": true
+  },
+  {
+    "service_id": "meeseva_caste_cert",
+    "service_name": "Caste / Integrated Community Certificate",
+    "category": "certificates",
+    "department": "Revenue & Backward Classes / Social Welfare Department",
+    "portal_name": "MeeSeva Telangana / MeeSeva AP",
+    "jurisdiction": "Telangana",
+    "description": "Authenticates SC, ST, BC, or OBC category reservation status for education admissions, scholarships, and government employment.",
+    "keywords": ["caste", "community", "sc", "st", "bc", "obc", "reservation", "meeseva", "revenue"],
+    "eligibility": [
+      "Belongs to recognized SC, ST, or BC communities in the state schedule",
+      "Resident of the state with ancestral roots in the corresponding district/mandal"
+    ],
+    "documents": [
+      {
+        "document_id": "doc_aadhaar",
+        "document_name": "Aadhaar Card",
+        "description": "Applicant's valid Aadhaar Card.",
+        "mandatory": true,
+        "accepted_examples": ["e-Aadhaar or physical Aadhaar card"]
+      },
+      {
+        "document_id": "doc_marks_memo",
+        "document_name": "Applicant Study Certificate / SSC Marks Memo",
+        "description": "School certificate or 10th marks memo containing recorded caste/community entry.",
+        "mandatory": true,
+        "accepted_examples": ["SSC Long Memo", "Transfer Certificate (TC) mentioning caste entry"]
+      },
+      {
+        "document_id": "doc_caste_cert",
+        "document_name": "Father / Sibling Caste Certificate",
+        "description": "Prior caste certificate issued to applicant's father, mother, or real brother/sister.",
+        "mandatory": true,
+        "accepted_examples": ["MeeSeva digitally signed caste certificate of father/sibling", "Old manual caste certificate verified by revenue office"]
+      },
+      {
+        "document_id": "doc_ration_card",
+        "document_name": "Food Security Card / Ration Card",
+        "description": "Proof of family membership.",
+        "mandatory": false,
+        "accepted_examples": ["FSC copy with applicant name listed"]
+      },
+      {
+        "document_id": "doc_passport_photo",
+        "document_name": "Passport Size Photograph",
+        "description": "Recent photograph of the candidate.",
+        "mandatory": true,
+        "accepted_examples": ["35mm x 45mm color photo"]
+      }
+    ],
+    "application_process": [
+      "Submit application through MeeSeva portal or nearest MeeSeva citizen counter.",
+      "Upload/attach parent's caste proof, applicant school TC or study certificate, and Aadhaar.",
+      "Pay standard MeeSeva fee and obtain acknowledgment slip.",
+      "Verification conducted by Revenue Inspector and Mandal Revenue Officer.",
+      "Certificate approved by Tahsildar with digital signature and 2D barcode."
+    ],
+    "fees": "₹45 at MeeSeva counter",
+    "processing_time": "15 to 30 working days",
+    "application_url": "https://meeseva.telangana.gov.in",
+    "where_to_apply": "MeeSeva Centre or citizen portal",
+    "important_notes": [
+      "SC and ST caste certificates are permanent and do not expire.",
+      "OBC Non-Creamy Layer certificates require annual renewal based on financial year income."
+    ],
+    "related_service_ids": ["meeseva_income_cert", "epass_postmatric_scholarship", "tspsc_onetime_registration"],
+    "last_verified": "2026-09-10",
+    "verification_status": "verified",
+    "popular": true
+  },
+  {
+    "service_id": "meeseva_ews_cert",
+    "service_name": "Economically Weaker Section (EWS) Certificate",
+    "category": "certificates",
+    "department": "Revenue Department",
+    "portal_name": "MeeSeva / State Revenue Portal",
+    "jurisdiction": "Telangana",
+    "description": "Income and Asset Certificate for claiming 10% reservation in central/state government posts and higher education admissions for General category economically weaker sections.",
+    "keywords": ["ews", "economically weaker section", "general category", "income and asset", "10 percent", "reservation"],
+    "eligibility": [
+      "Person not covered under existing SC, ST, and OBC reservation schemes",
+      "Family gross annual income below ₹8 Lakhs from all sources",
+      "Family does not own: 5 acres of agricultural land or above; residential flat of 1000 sq ft or above; residential plot of 100 sq yards in notified municipalities"
+    ],
+    "documents": [
+      {
+        "document_id": "doc_aadhaar",
+        "document_name": "Aadhaar Card",
+        "description": "Aadhaar proof of applicant and family members.",
+        "mandatory": true,
+        "accepted_examples": ["Original Aadhaar card or e-Aadhaar"]
+      },
+      {
+        "document_id": "doc_income_cert",
+        "document_name": "Family Income Proof / ITR",
+        "description": "Income proof of parents and applicant for previous financial year.",
+        "mandatory": true,
+        "accepted_examples": ["ITR acknowledgement", "Salary certificates", "Mandal Revenue Officer income report"]
+      },
+      {
+        "document_id": "doc_pattadar_passbook",
+        "document_name": "Property / Land Documents",
+        "description": "Pattadar passbook or house property documents proving asset ceiling limits.",
+        "mandatory": true,
+        "accepted_examples": ["Dharani ROR copy", "Municipal house tax assessment"]
+      },
+      {
+        "document_id": "doc_affidavit",
+        "document_name": "Self-Declaration on Asset & Income Limits",
+        "description": "Notarized affidavit declaring that family assets do not exceed statutory EWS limits.",
+        "mandatory": true,
+        "accepted_examples": ["Standard EWS Annexure self-declaration signed by parent/applicant"]
+      }
+    ],
+    "application_process": [
+      "Submit EWS application at MeeSeva or District Revenue portal.",
+      "Submit land/house holding documents and annual income documentation.",
+      "Revenue Inspector and Mandal Surveyor inspect and certify land/property ceiling compliance.",
+      "Tahsildar issues digitally verified EWS certificate."
+    ],
+    "fees": "₹45 MeeSeva fee",
+    "processing_time": "15 working days",
+    "application_url": "https://meeseva.telangana.gov.in",
+    "where_to_apply": "MeeSeva Centre",
+    "important_notes": [
+      "EWS certificate is valid for 1 financial year from date of issue.",
+      "Family includes person seeking reservation, their parents, siblings below 18 years, spouse, and children below 18."
+    ],
+    "related_service_ids": ["meeseva_income_cert", "tspsc_onetime_registration"],
+    "last_verified": "2026-08-20",
+    "verification_status": "verified"
+  },
+  {
+    "service_id": "meeseva_residence_cert",
+    "service_name": "Residence / Nativity Certificate",
+    "category": "certificates",
+    "department": "Revenue Department",
+    "portal_name": "MeeSeva Portal",
+    "jurisdiction": "Telangana",
+    "description": "Proof of permanent or long-term residence required for passport application, state quota admissions, bank loans, and municipal services.",
+    "keywords": ["residence", "nativity", "domicile", "local status", "meeseva", "address"],
+    "eligibility": [
+      "Individual continuously residing in the mandal/district of application",
+      "Parents resided or owned property in the locality"
+    ],
+    "documents": [
+      {
+        "document_id": "doc_aadhaar",
+        "document_name": "Aadhaar Card",
+        "description": "Applicant's Aadhaar with local address.",
+        "mandatory": true,
+        "accepted_examples": ["Original Aadhaar Card or e-Aadhaar"]
+      },
+      {
+        "document_id": "doc_electricity_bill",
+        "document_name": "Electricity Bill / House Tax Receipt",
+        "description": "Recent utility bill or property tax receipt of applicant or parent.",
+        "mandatory": true,
+        "accepted_examples": ["Recent electricity bill", "GHMC / Municipality House Tax Receipt"]
+      },
+      {
+        "document_id": "doc_bonafide",
+        "document_name": "School Study / Bonafide Certificate",
+        "description": "Proof of education in local school/college.",
+        "mandatory": false,
+        "accepted_examples": ["Bonafide certificate covering local study period"]
+      }
+    ],
+    "application_process": [
+      "Submit application at MeeSeva counter with address proof and photo.",
+      "Village Revenue Officer (VRO) / RI completes local enquiry.",
+      "Tahsildar approves and signs digital certificate."
+    ],
+    "fees": "₹45",
+    "processing_time": "7 working days",
+    "application_url": "https://meeseva.telangana.gov.in",
+    "where_to_apply": "MeeSeva Centre",
+    "important_notes": [
+      "For education admissions, 7 consecutive years of study certificates are often accepted in lieu of a residence certificate for local candidate status."
+    ],
+    "related_service_ids": ["meeseva_income_cert", "passport_fresh_application"],
+    "last_verified": "2026-09-01",
+    "verification_status": "verified"
+  },
+  {
+    "service_id": "aadhaar_enrolment_update",
+    "service_name": "Aadhaar Enrolment & Detail Update",
+    "category": "identity",
+    "department": "Unique Identification Authority of India (UIDAI)",
+    "portal_name": "myAadhaar Portal",
+    "jurisdiction": "central",
+    "description": "Fresh 12-digit Aadhaar enrolment, mandatory biometric updates for children at ages 5 & 15, and demographic updates (Address, Name, Mobile, DoB).",
+    "keywords": ["aadhaar", "uidai", "myaadhaar", "biometric", "update address", "mobile link", "identity"],
+    "eligibility": [
+      "Any individual resident in India for 182 days or more in the preceding 12 months",
+      "Newborns and children eligible for Baal Aadhaar"
+    ],
+    "documents": [
+      {
+        "document_id": "doc_identity_proof",
+        "document_name": "Proof of Identity (PoI)",
+        "description": "Document establishing full legal name and photograph.",
+        "mandatory": true,
+        "accepted_examples": ["Passport", "PAN Card", "Voter ID", "Driving Licence", "Ration Card with photo"]
+      },
+      {
+        "document_id": "doc_address_proof",
+        "document_name": "Proof of Address (PoA)",
+        "description": "Document establishing current residential address.",
+        "mandatory": true,
+        "accepted_examples": ["Electricity/Water bill (not older than 3 months)", "Bank Passbook with photo and address", "Registered Rent Agreement", "Post Office Account Statement"]
+      },
+      {
+        "document_id": "doc_dob_proof",
+        "document_name": "Proof of Date of Birth (DoB)",
+        "description": "Official birth verification document.",
+        "mandatory": true,
+        "accepted_examples": ["Birth Certificate issued by Registrar of Births", "SSC 10th Marks Memo / Matriculation Certificate", "Passport"]
+      }
+    ],
+    "application_process": [
+      "Book an appointment online via myAadhaar portal (myaadhaar.uidai.gov.in) or walk into an Aadhaar Seva Kendra (ASK) / Bank / Post Office.",
+      "Bring original documents for scanning; UIDAI operator verifies physical originals.",
+      "Submit biometric data (10 fingerprints, iris scan, webcam facial photograph).",
+      "Operator issues Enrolment / Update Slip containing 28-digit Enrolment ID (EID).",
+      "Track status online using EID on myAadhaar portal; download e-Aadhaar when generation completes."
+    ],
+    "fees": "Fresh enrolment: Free | Biometric update (mandatory 5 & 15 yrs): Free | Demographic update: ₹50 | Biometric update: ₹100",
+    "processing_time": "15 to 30 days (usually processed within 5-10 days)",
+    "application_url": "https://myaadhaar.uidai.gov.in",
+    "where_to_apply": "UIDAI Aadhaar Seva Kendra, Designated Banks, Post Offices, or online for address updates with registered mobile OTP",
+    "important_notes": [
+      "Original documents must be produced; photocopies are not accepted at Aadhaar Seva Kendra.",
+      "Do not laminate the paper slip; use masked e-Aadhaar for everyday safety.",
+      "Mobile number linking requires physical biometric verification at an Aadhaar centre."
+    ],
+    "related_service_ids": ["pan_card_application", "digilocker_account_setup", "voter_id_registration"],
+    "last_verified": "2026-09-28",
+    "verification_status": "verified",
+    "popular": true
+  },
+  {
+    "service_id": "pan_card_application",
+    "service_name": "PAN Card (New / Correction - Form 49A)",
+    "category": "identity",
+    "department": "Income Tax Department",
+    "portal_name": "Protean eGov (NSDL) / UTIITSL Portal",
+    "jurisdiction": "central",
+    "description": "10-digit alphanumeric Permanent Account Number essential for banking, income tax filing, high-value transactions, and business.",
+    "keywords": ["pan", "pan card", "nsdl", "utiitsl", "income tax", "form 49a", "instant e-pan"],
+    "eligibility": [
+      "Any Indian citizen, NRI, company, trust or individual requiring financial tax identification"
+    ],
+    "documents": [
+      {
+        "document_id": "doc_aadhaar",
+        "document_name": "Aadhaar Card",
+        "description": "Valid Aadhaar Card with matching name and date of birth.",
+        "mandatory": true,
+        "accepted_examples": ["Aadhaar card acts as common proof of identity, address, and date of birth"]
+      },
+      {
+        "document_id": "doc_passport_photo",
+        "document_name": "Passport Size Photographs (2 Copies)",
+        "description": "Color photos required if opting for physical document submission instead of paperless Aadhaar e-KYC.",
+        "mandatory": false,
+        "accepted_examples": ["3.5cm x 2.5cm photo with light background"]
+      },
+      {
+        "document_id": "doc_signature",
+        "document_name": "Applicant Specimen Signature",
+        "description": "Clear signature or thumb impression.",
+        "mandatory": true,
+        "accepted_examples": ["Scanned black ink signature image"]
+      }
+    ],
+    "application_process": [
+      "Visit Protean NSDL or UTIITSL online portal for Form 49A.",
+      "Choose 'Digital mode (Aadhaar based e-KYC)' for instant paperless application.",
+      "Authenticate via Aadhaar OTP sent to UIDAI registered mobile number.",
+      "Pay application processing fee using UPI, Debit Card, or Net Banking.",
+      "Digitally sign via Aadhaar e-Sign. Download instant e-PAN within 2-4 hours, physical laminated card dispatched by India Post within 7-10 working days."
+    ],
+    "fees": "₹107 for dispatch of physical card within India (₹72 for e-PAN only)",
+    "processing_time": "e-PAN: 2 to 24 hours | Physical Card: 7 to 15 working days",
+    "application_url": "https://www.onlineservices.nsdl.com/paam/endUserRegisterContact.html",
+    "where_to_apply": "Protean NSDL / UTIITSL portal, or instant e-PAN on Income Tax e-Filing portal (free)",
+    "important_notes": [
+      "For paperless Aadhaar e-KYC, applicant's mobile number MUST be linked with Aadhaar.",
+      "Ensure name and DoB on Aadhaar match educational records before applying to prevent mismatch rejections."
+    ],
+    "related_service_ids": ["aadhaar_enrolment_update", "digilocker_account_setup"],
+    "last_verified": "2026-09-20",
+    "verification_status": "verified",
+    "popular": true
+  },
+  {
+    "service_id": "voter_id_registration",
+    "service_name": "Voter ID Card (Form 6 - New Voter Registration)",
+    "category": "identity",
+    "department": "Election Commission of India (ECI)",
+    "portal_name": "ECI Voters Service Portal",
+    "jurisdiction": "central",
+    "description": "Enroll as a voter in the electoral roll and obtain an Electoral Photo Identity Card (EPIC) upon turning 18.",
+    "keywords": ["voter id", "epic", "eci", "form 6", "vote", "election", "nvsp"],
+    "eligibility": [
+      "Indian citizen who has attained 18 years of age (or qualifying age dates designated by ECI)",
+      "Resident of the assembly constituency where enrolment is sought"
+    ],
+    "documents": [
+      {
+        "document_id": "doc_passport_photo",
+        "document_name": "Passport Size Photograph",
+        "description": "Recent passport photo.",
+        "mandatory": true,
+        "accepted_examples": ["White background passport photo (under 2MB)"]
+      },
+      {
+        "document_id": "doc_dob_proof",
+        "document_name": "Proof of Age / Date of Birth",
+        "description": "Proof establishing date of birth.",
+        "mandatory": true,
+        "accepted_examples": ["Birth Certificate", "Aadhaar Card", "PAN Card", "Driving Licence", "Class 10 Marks Memo"]
+      },
+      {
+        "document_id": "doc_address_proof",
+        "document_name": "Proof of Ordinary Residence",
+        "description": "Proof of address where applicant normally resides.",
+        "mandatory": true,
+        "accepted_examples": ["Electricity / Water / Gas connection bill", "Aadhaar Card", "Current Bank Passbook", "Registered Sale Deed / Rent Agreement"]
+      }
+    ],
+    "application_process": [
+      "Create an account on the ECI Voters Service Portal (voters.eci.gov.in) or ECIS Voter Helpline App.",
+      "Select 'Form 6 - Application for New Voters'.",
+      "Enter personal details, constituency, family members already enrolled (EPIC number for grouping).",
+      "Upload photo, age proof, and address proof.",
+      "Booth Level Officer (BLO) visits residential address for physical verification.",
+      "Upon Electoral Registration Officer (ERO) approval, download e-EPIC immediately and receive color PVC Voter Card via Speed Post."
+    ],
+    "fees": "Free of cost",
+    "processing_time": "15 to 30 days",
+    "application_url": "https://voters.eci.gov.in",
+    "where_to_apply": "ECI Voters Portal or Voter Helpline App",
+    "important_notes": [
+      "Possessing two voter cards in different constituencies is an offence under the Representation of the People Act.",
+      "Digital e-EPIC is legally valid at polling stations alongside the physical card."
+    ],
+    "related_service_ids": ["aadhaar_enrolment_update", "passport_fresh_application"],
+    "last_verified": "2026-09-18",
+    "verification_status": "verified"
+  },
+  {
+    "service_id": "passport_fresh_application",
+    "service_name": "Passport Application (Fresh / Reissue)",
+    "category": "identity",
+    "department": "Ministry of External Affairs (Consular, Passport & Visa Division)",
+    "portal_name": "Passport Seva Portal",
+    "jurisdiction": "central",
+    "description": "Standard 36 or 60 page Indian passport issued for international travel and official citizenship identification.",
+    "keywords": ["passport", "passport seva", "psk", "mea", "tatkaal", "pcc", "international travel"],
+    "eligibility": [
+      "Citizen of India by birth, descent, registration or naturalization"
+    ],
+    "documents": [
+      {
+        "document_id": "doc_aadhaar",
+        "document_name": "Aadhaar Card (with matching DoB & Address)",
+        "description": "Primary identity and address proof.",
+        "mandatory": true,
+        "accepted_examples": ["Original Aadhaar card with matching details"]
+      },
+      {
+        "document_id": "doc_marks_memo",
+        "document_name": "10th Standard Marks Memo / Degree Certificate",
+        "description": "Required to qualify for Emigration Check Not Required (ECNR) status.",
+        "mandatory": true,
+        "accepted_examples": ["10th / Matriculation Certificate issued by recognized education board", "Higher education degree certificate"]
+      },
+      {
+        "document_id": "doc_bank_passbook",
+        "document_name": "Bank Account Passbook / Proof of Address",
+        "description": "Secondary address proof if Aadhaar was updated recently.",
+        "mandatory": false,
+        "accepted_examples": ["Scheduled bank passbook with photo and 1 year transaction entries"]
+      }
+    ],
+    "application_process": [
+      "Register on official Passport Seva portal (passportindia.gov.in) and fill online form.",
+      "Pay application fee online and schedule appointment at nearest PSK or Post Office Passport Seva Kendra (POPSK).",
+      "Visit PSK on scheduled date with all ORIGINAL documents and appointment confirmation.",
+      "Complete biometric capture, photograph, and document verification at Counters A, B, and C.",
+      "Local Police Station completes physical address verification.",
+      "Passport printed and dispatched via India Post Speed Post."
+    ],
+    "fees": "Normal 36-page: ₹1,500 | 60-page: ₹2,000 | Tatkaal: ₹3,500 (additional ₹2,000)",
+    "processing_time": "Normal: 10-20 working days | Tatkaal: 1-3 working days",
+    "application_url": "https://www.passportindia.gov.in",
+    "where_to_apply": "Passport Seva Kendra (PSK) / POPSK after online portal booking",
+    "important_notes": [
+      "Beware of fake lookalike domains. The only genuine website ends with .gov.in.",
+      "Never pay cash or middlemen at the PSK; all statutory fees are paid online during slot booking.",
+      "Clear any pending criminal court cases or legal restrictions prior to applying."
+    ],
+    "related_service_ids": ["police_clearance_certificate", "aadhaar_enrolment_update"],
+    "last_verified": "2026-09-25",
+    "verification_status": "verified",
+    "popular": true
+  },
+  {
+    "service_id": "driving_licence_learners",
+    "service_name": "Driving Licence (Learner's Licence - LLR)",
+    "category": "transport",
+    "department": "Transport Department / MoRTH",
+    "portal_name": "Parivahan Sarathi Portal / State RTA",
+    "jurisdiction": "central",
+    "description": "Provisional permit required before learning to operate a motor vehicle on public roads and appearing for practical driving test.",
+    "keywords": ["driving licence", "llr", "learner licence", "parivahan", "sarathi", "rta", "rto", "transport"],
+    "eligibility": [
+      "16 years of age for motorcycle with engine capacity up to 50cc without gear (with parental consent)",
+      "18 years of age for light motor vehicle (LMV - cars/bikes with gear)",
+      "20 years for transport / commercial vehicles (with existing LMV licence)"
+    ],
+    "documents": [
+      {
+        "document_id": "doc_aadhaar",
+        "document_name": "Aadhaar Card (with linked mobile)",
+        "description": "Used for contactless Aadhaar authenticated online test from home.",
+        "mandatory": true,
+        "accepted_examples": ["Aadhaar card copy with mobile verification"]
+      },
+      {
+        "document_id": "doc_dob_proof",
+        "document_name": "Proof of Age / DoB",
+        "description": "Official proof of age.",
+        "mandatory": true,
+        "accepted_examples": ["SSC 10th certificate", "Birth Certificate", "Passport"]
+      },
+      {
+        "document_id": "doc_medical_cert",
+        "document_name": "Self-Declaration of Medical Fitness (Form 1)",
+        "description": "Medical declaration filled online (Form 1A medical practitioner certificate required if age > 40 or commercial).",
+        "mandatory": true,
+        "accepted_examples": ["Online self-declaration questionnaire on Sarathi portal"]
+      }
+    ],
+    "application_process": [
+      "Open Parivahan Sarathi portal (sarathi.parivahan.gov.in) and select state.",
+      "Select 'Apply for Learner Licence' with Aadhaar authentication.",
+      "Fill applicant particulars, select vehicle class (e.g. MCWG for motorcycle, LMV for motor car).",
+      "Pay application and test fees online.",
+      "Complete online road safety tutorial and take online computer-based traffic signs test (from home in supported states or at RTA).",
+      "Upon passing, download instantly generated Learner's Licence."
+    ],
+    "fees": "₹150 - ₹200 per vehicle class + test fee (approx. ₹350 - ₹500 total)",
+    "processing_time": "Instant upon passing online test",
+    "application_url": "https://sarathi.parivahan.gov.in",
+    "where_to_apply": "Parivahan Sarathi Portal or District RTO Office",
+    "important_notes": [
+      "Learner's Licence is valid for 6 months across India.",
+      "You can apply for a permanent driving licence after 30 days of holding the LLR.",
+      "Always display the red 'L' board on the front and rear of the vehicle when practicing."
+    ],
+    "related_service_ids": ["vehicle_registration_rc", "aadhaar_enrolment_update"],
+    "last_verified": "2026-09-12",
+    "verification_status": "verified",
+    "popular": true
+  },
+  {
+    "service_id": "epass_postmatric_scholarship",
+    "service_name": "Post-Matric Scholarship & Fee Reimbursement",
+    "category": "education",
+    "department": "Backward Classes, SC, ST & Minority Welfare Departments",
+    "portal_name": "Telangana ePASS / AP Jagananna Vidya Deevena",
+    "jurisdiction": "Telangana",
+    "description": "Financial assistance covering tuition fee reimbursement and maintenance allowance for post-matriculation students (Intermediate, Degree, Engineering, Medicine, PG).",
+    "keywords": ["scholarship", "epass", "fee reimbursement", "post matric", "telangana epass", "welfare", "college fees"],
+    "eligibility": [
+      "SC/ST students with parental annual income up to ₹2,00,000",
+      "BC/EBC/Disabled students in rural areas with parental annual income up to ₹1,50,000 (urban up to ₹2,00,000)",
+      "Minimum 75% college attendance per semester/academic year"
+    ],
+    "documents": [
+      {
+        "document_id": "doc_income_cert",
+        "document_name": "Latest MeeSeva Income Certificate",
+        "description": "Must be issued by MeeSeva within the current financial year in student's parent/guardian name.",
+        "mandatory": true,
+        "accepted_examples": ["Digitally signed MeeSeva Income Certificate"]
+      },
+      {
+        "document_id": "doc_caste_cert",
+        "document_name": "MeeSeva Caste Certificate",
+        "description": "Permanent caste certificate issued by Revenue Department.",
+        "mandatory": true,
+        "accepted_examples": ["Digitally signed community certificate with barcode"]
+      },
+      {
+        "document_id": "doc_aadhaar",
+        "document_name": "Student & Parents Aadhaar Cards",
+        "description": "Aadhaar must be linked to bank account via NPCI mapper.",
+        "mandatory": true,
+        "accepted_examples": ["Aadhaar card copies"]
+      },
+      {
+        "document_id": "doc_bank_passbook",
+        "document_name": "Student Savings Bank Passbook (NPCI Seeded)",
+        "description": "Bank account in student's name only (no joint accounts with parents).",
+        "mandatory": true,
+        "accepted_examples": ["First page of Nationalized Bank Passbook showing IFSC and Account Number"]
+      },
+      {
+        "document_id": "doc_bonafide",
+        "document_name": "Study / Bonafide Certificate",
+        "description": "Continuous 7 years study certificates to establish local candidate status.",
+        "mandatory": true,
+        "accepted_examples": ["Class 4th to 10th or intermediate bonafide certificates"]
+      },
+      {
+        "document_id": "doc_marks_memo",
+        "document_name": "SSC Marks Memo & Previous Exam Memo",
+        "description": "Marks sheet of qualifying examination.",
+        "mandatory": true,
+        "accepted_examples": ["10th memo and intermediate/degree mark sheets"]
+      }
+    ],
+    "application_process": [
+      "Open state ePASS portal (telanganaepass.cgg.gov.in) and click Post Matric Scholarship Fresh/Renewal Registration.",
+      "Enter SSC Hall Ticket Number, Year of Pass, and Date of Birth to auto-fetch student records.",
+      "Enter MeeSeva Caste & Income Certificate application numbers for instant electronic validation.",
+      "Enter Bank Account details and upload required scanned copies.",
+      "Submit application and print hardcopy acknowledgment.",
+      "Submit acknowledgment copy with physical documents to college scholarship desk for principal verification.",
+      "District Welfare Officer verifies and sanctions fees directly to college and student bank accounts via DBT."
+    ],
+    "fees": "Free of cost",
+    "processing_time": "Disbursed per semester as per academic calendar",
+    "application_url": "https://telanganaepass.cgg.gov.in",
+    "where_to_apply": "State ePASS Portal",
+    "important_notes": [
+      "Bank account MUST be seeded with Aadhaar at your bank branch via NPCI mapper for Direct Benefit Transfer (DBT).",
+      "Ensure student name, father name, and DoB match exactly between Aadhaar, SSC memo, and bank passbook."
+    ],
+    "related_service_ids": ["meeseva_income_cert", "meeseva_caste_cert", "national_scholarship_portal"],
+    "last_verified": "2026-09-05",
+    "verification_status": "verified",
+    "popular": true
+  },
+  {
+    "service_id": "national_scholarship_portal",
+    "service_name": "National Scholarship Portal (NSP Schemes)",
+    "category": "education",
+    "department": "Ministry of Electronics & Information Technology / Various Central Ministries",
+    "portal_name": "National Scholarship Portal (NSP)",
+    "jurisdiction": "central",
+    "description": "Central portal for central sector schemes, minority scholarships, AICTE Pragati & Saksham, disability scholarships, and top-class higher education grants.",
+    "keywords": ["nsp", "scholarship", "central sector", "minority scholarship", "aicte", "ugc", "moma"],
+    "eligibility": [
+      "Students enrolled in recognized schools, colleges, or universities in India",
+      "Scheme-specific merit ranking and parental income criteria (typically below ₹2.5 Lakhs - ₹8 Lakhs)"
+    ],
+    "documents": [
+      {
+        "document_id": "doc_aadhaar",
+        "document_name": "Aadhaar / OTR Number",
+        "description": "Aadhaar Face RD / One-Time Registration on NSP portal.",
+        "mandatory": true,
+        "accepted_examples": ["NSP One-Time Registration (OTR) generated with Aadhaar"]
+      },
+      {
+        "document_id": "doc_income_cert",
+        "document_name": "Income Certificate",
+        "description": "Competent authority income certificate.",
+        "mandatory": true,
+        "accepted_examples": ["Revenue department income certificate"]
+      },
+      {
+        "document_id": "doc_bonafide",
+        "document_name": "Institutional Bonafide Certificate",
+        "description": "Downloaded NSP bonafide format signed by head of institution.",
+        "mandatory": true,
+        "accepted_examples": ["Official college stamped bonafide form"]
+      },
+      {
+        "document_id": "doc_bank_passbook",
+        "document_name": "Bank Passbook (Aadhaar Seeded)",
+        "description": "Active savings account copy.",
+        "mandatory": true,
+        "accepted_examples": ["Bank passbook with account number and IFSC"]
+      }
+    ],
+    "application_process": [
+      "Complete One-Time Registration (OTR) using Aadhaar Face Authentication app.",
+      "Log in to scholarships.gov.in using OTR credentials.",
+      "System displays all central, UGC, and AICTE schemes matching student profile.",
+      "Select scheme, enter academic scores, and upload bonafide and income proof.",
+      "Institute Nodal Officer (INO) and State Nodal Officer (SNO) verify application electronically.",
+      "Scholarship amount credited directly to student bank account via PFMS/DBT."
+    ],
+    "fees": "Free of cost",
+    "processing_time": "Varies by scheme cycle (usually October to March)",
+    "application_url": "https://scholarships.gov.in",
+    "where_to_apply": "National Scholarship Portal online",
+    "important_notes": [
+      "A student cannot avail multiple government scholarships simultaneously for the same academic degree."
+    ],
+    "related_service_ids": ["epass_postmatric_scholarship", "digilocker_account_setup"],
+    "last_verified": "2026-08-30",
+    "verification_status": "verified"
+  },
+  {
+    "service_id": "tspsc_onetime_registration",
+    "service_name": "State PSC One-Time Registration (OTR)",
+    "category": "jobs",
+    "department": "Telangana State Public Service Commission / APPSC",
+    "portal_name": "TSPSC / APPSC Portal",
+    "jurisdiction": "Telangana",
+    "description": "Mandatory single profile registration required before applying for Group-I, Group-II, Group-III, Group-IV, Gazetted Officers, and technical posts in the state.",
+    "keywords": ["tspsc", "appsc", "otr", "one time registration", "group 1", "group 2", "jobs", "recruitment"],
+    "eligibility": [
+      "Indian citizen satisfying local candidate conditions or open competition eligibility for state recruitment"
+    ],
+    "documents": [
+      {
+        "document_id": "doc_aadhaar",
+        "document_name": "Aadhaar Card",
+        "description": "Applicant Aadhaar details.",
+        "mandatory": true,
+        "accepted_examples": ["Aadhaar card"]
+      },
+      {
+        "document_id": "doc_marks_memo",
+        "document_name": "10th / SSC Marks Memo",
+        "description": "For verification of candidate name, father name, and date of birth.",
+        "mandatory": true,
+        "accepted_examples": ["SSC Board original memo"]
+      },
+      {
+        "document_id": "doc_bonafide",
+        "document_name": "Study Certificates (Classes 1st to 7th)",
+        "description": "Crucial to determine Presidential Order local cadre district and multi-zone.",
+        "mandatory": true,
+        "accepted_examples": ["School study/bonafide certificates from 1st to 7th classes"]
+      },
+      {
+        "document_id": "doc_caste_cert",
+        "document_name": "MeeSeva Community / Caste Certificate",
+        "description": "For reservation claims (SC/ST/BC/EWS).",
+        "mandatory": false,
+        "accepted_examples": ["MeeSeva caste certificate with barcode"]
+      },
+      {
+        "document_id": "doc_passport_photo",
+        "document_name": "Scanned Photograph & Signature",
+        "description": "Passport photo under 50KB and signature under 30KB in JPG format.",
+        "mandatory": true,
+        "accepted_examples": ["Clean digital photo and black ink signature"]
+      }
+    ],
+    "application_process": [
+      "Visit tspsc.gov.in and click 'New OTR' (One-Time Registration).",
+      "Enter Aadhaar and basic personal credentials.",
+      "Enter education history: specify district/school for classes 1 to 7 to fix local candidate status.",
+      "Enter higher educational qualifications (Degree, PG, Technical certifications).",
+      "Upload photo and signature; verify preview.",
+      "Submit and note down the TSPSC ID (TSXXXXXXXX) sent via SMS."
+    ],
+    "fees": "Registration is free (individual notification exam fees apply later)",
+    "processing_time": "Instant profile generation",
+    "application_url": "https://www.tspsc.gov.in",
+    "where_to_apply": "State Public Service Commission portal",
+    "important_notes": [
+      "Accurate entry of 1st to 7th class study details is vital: local district/zonal reservation is legally tied to these records."
+    ],
+    "related_service_ids": ["meeseva_caste_cert", "meeseva_income_cert"],
+    "last_verified": "2026-09-14",
+    "verification_status": "verified"
+  },
+  {
+    "service_id": "dharani_encumbrance_certificate",
+    "service_name": "Encumbrance Certificate (EC) for Property",
+    "category": "land-property",
+    "department": "Registration & Stamps Department",
+    "portal_name": "IGRS Telangana / AP Meebhoomi",
+    "jurisdiction": "Telangana",
+    "description": "Essential legal certificate verifying all past registered deeds, mortgages, sales, and encumbrances on a plot, house, or land over a period of 15 to 30 years.",
+    "keywords": ["ec", "encumbrance certificate", "igrs", "land", "property", "registration", "dharani", "stamps"],
+    "eligibility": [
+      "Any property owner, prospective buyer, legal counsel, or financial institution"
+    ],
+    "documents": [
+      {
+        "document_id": "doc_property_details",
+        "document_name": "Property Identification Details",
+        "description": "Document Number & Year of previous registered deed, or House / Plot Number with boundary survey numbers.",
+        "mandatory": true,
+        "accepted_examples": ["Prior registered Sale Deed / Gift Deed copy", "Municipal Assessment Number", "Survey / Khasra number"]
+      },
+      {
+        "document_id": "doc_aadhaar",
+        "document_name": "Applicant Aadhaar Card",
+        "description": "For user registration on IGRS portal.",
+        "mandatory": true,
+        "accepted_examples": ["Aadhaar number for OTP verification"]
+      }
+    ],
+    "application_process": [
+      "Go to IGRS portal (registration.telangana.gov.in) and click 'Encumbrance Statement (EC)'.",
+      "Search by Document Number (Deed number, SRO office, registration year) or Property details.",
+      "Review the transaction statement preview on screen for the specified period (from 1983 to present).",
+      "To download digitally signed official legal copy, pay online fee and obtain e-Signed EC PDF."
+    ],
+    "fees": "Online search view: Free | Certified digital EC: ₹200 to ₹500 depending on search span",
+    "processing_time": "Instant download for digitized records",
+    "application_url": "https://registration.telangana.gov.in",
+    "where_to_apply": "IGRS Portal or Sub-Registrar Office (SRO)",
+    "important_notes": [
+      "A 'Nil Encumbrance Certificate' (Form 16) signifies no registered encumbrance exists during the searched term.",
+      "Does not capture unregistered agreements, oral leases, or pending civil litigation unless notified."
+    ],
+    "related_service_ids": ["meeseva_pattadar_passbook", "property_tax_payment"],
+    "last_verified": "2026-09-08",
+    "verification_status": "verified"
+  },
+  {
+    "service_id": "meeseva_pattadar_passbook",
+    "service_name": "Pattadar Passbook / Dharani Mutation",
+    "category": "land-property",
+    "department": "Revenue / Dharani Integrated Land Records",
+    "portal_name": "Dharani Portal Telangana",
+    "jurisdiction": "Telangana",
+    "description": "Official title deed passbook for agricultural landholders, updated electronically upon sale, partition, succession, or gift deeds.",
+    "keywords": ["pattadar", "passbook", "dharani", "mutation", "land records", "khata", "survey number"],
+    "eligibility": [
+      "Owner of registered agricultural land parcels in Telangana",
+      "Legal heir seeking succession mutation after demise of pattadar"
+    ],
+    "documents": [
+      {
+        "document_id": "doc_registered_deed",
+        "document_name": "Registered Sale Deed / Gift Deed / Decree",
+        "description": "Deed registered before the Joint Sub-Registrar / Tahsildar.",
+        "mandatory": true,
+        "accepted_examples": ["Registered document from Dharani or Sub-Registrar"]
+      },
+      {
+        "document_id": "doc_aadhaar",
+        "document_name": "Aadhaar Card of Buyer and Seller",
+        "description": "Biometric verification required on slot booking date.",
+        "mandatory": true,
+        "accepted_examples": ["Original Aadhaar cards"]
+      },
+      {
+        "document_id": "doc_pattadar_passbook",
+        "document_name": "Existing Pattadar Passbook",
+        "description": "Khata passbook of seller / deceased pattadar.",
+        "mandatory": true,
+        "accepted_examples": ["Green Dharani Passbook copy"]
+      }
+    ],
+    "application_process": [
+      "Book slot on Dharani portal (dharani.telangana.gov.in) for registration-cum-mutation.",
+      "Pay stamp duty, registration charges, and mutation fee via cyber treasury.",
+      "Both parties appear before Tahsildar / Joint Sub-Registrar with witnesses on scheduled slot.",
+      "Biometric thumbprint and facial photo captured; instant electronic deed generated.",
+      "Record of Rights (ROR) updated instantly in Dharani database; passbook dispatched via Speed Post."
+    ],
+    "fees": "Statutory Stamp Duty (6% to 7.5%) + Registration & Mutation Fee (₹2,500 - ₹5,000 depending on extent)",
+    "processing_time": "Instant registration & mutation on appointment slot; passbook delivery 7 days",
+    "application_url": "https://dharani.telangana.gov.in",
+    "where_to_apply": "Mandal Tahsildar Office / Dharani Portal",
+    "important_notes": [
+      "In Telangana, registration and mutation for agricultural land happen simultaneously in a single step on Dharani."
+    ],
+    "related_service_ids": ["dharani_encumbrance_certificate", "rythu_bandhu_pmkisan"],
+    "last_verified": "2026-08-18",
+    "verification_status": "verified"
+  },
+  {
+    "service_id": "pm_mudra_yojana",
+    "service_name": "Pradhan Mantri MUDRA Yojana (PMMY Loan)",
+    "category": "loans-finance",
+    "department": "Department of Financial Services / Ministry of Finance",
+    "portal_name": "Udyamimitra / Mudra Portal",
+    "jurisdiction": "central",
+    "description": "Collateral-free micro loans up to ₹10 Lakhs (extended up to ₹20 Lakhs in recent budget) for non-corporate, non-farm micro and small enterprises under Shishu, Kishore, and Tarun categories.",
+    "keywords": ["mudra", "pmmy", "loan", "business loan", "shishu", "kishore", "tarun", "small business"],
+    "eligibility": [
+      "Indian citizen with viable business plan for manufacturing, processing, trading, or service sector",
+      "Non-farm micro enterprise; no previous default history with financial institutions"
+    ],
+    "documents": [
+      {
+        "document_id": "doc_identity_proof",
+        "document_name": "Proof of Identity",
+        "description": "Aadhaar Card, Voter ID, PAN Card, Driving Licence, or Passport.",
+        "mandatory": true,
+        "accepted_examples": ["Aadhaar card copy + PAN card"]
+      },
+      {
+        "document_id": "doc_address_proof",
+        "document_name": "Proof of Residence & Business Address",
+        "description": "Electricity bill, Shop lease agreement, or municipal trade licence.",
+        "mandatory": true,
+        "accepted_examples": ["Utility bill + rent agreement"]
+      },
+      {
+        "document_id": "doc_business_proof",
+        "document_name": "Business Registration / Udyam Certificate",
+        "description": "Proof of business enterprise.",
+        "mandatory": true,
+        "accepted_examples": ["Udyam Registration Certificate", "GST certificate if applicable"]
+      },
+      {
+        "document_id": "doc_bank_passbook",
+        "document_name": "Bank Statement (Last 6 Months)",
+        "description": "Bank account statement showing business transactions.",
+        "mandatory": true,
+        "accepted_examples": ["Bank statement with branch seal"]
+      }
+    ],
+    "application_process": [
+      "Prepare a brief project report indicating machinery, inventory cost, and projected earnings.",
+      "Apply online on Udyamimitra portal (udyamimitra.in) or submit application form directly at any commercial bank, RRB, or MFI.",
+      "Choose loan category: Shishu (loans up to ₹50,000), Kishore (₹50,000 to ₹5 Lakhs), or Tarun (₹5 Lakhs to ₹10 Lakhs).",
+      "Bank conducts appraisal of business viability and sanctions loan without requiring collateral security.",
+      "MUDRA Card (debit card for working capital drawdowns) is issued to the borrower."
+    ],
+    "fees": "No processing fees for Shishu loans; nominal bank processing fee for Kishore/Tarun",
+    "processing_time": "7 to 15 working days",
+    "application_url": "https://www.mudra.org.in",
+    "where_to_apply": "Any Public / Private Sector Commercial Bank, Regional Rural Bank (RRB), or udyamimitra.in",
+    "important_notes": [
+      "No collateral or third-party guarantee is required for MUDRA loans.",
+      "Beware of fraudulent calls or agents demanding advance commission. Loans are sanctioned only by authorized banks."
+    ],
+    "related_service_ids": ["udyam_msme_registration", "pm_vishwakarma_scheme"],
+    "last_verified": "2026-09-02",
+    "verification_status": "verified"
+  },
+  {
+    "service_id": "pm_vishwakarma_scheme",
+    "service_name": "PM Vishwakarma Scheme",
+    "category": "loans-finance",
+    "department": "Ministry of Micro, Small and Medium Enterprises (MSME)",
+    "portal_name": "PM Vishwakarma Portal",
+    "jurisdiction": "central",
+    "description": "Holistic support scheme providing PM Vishwakarma Certificate & ID, basic skill training with ₹500/day stipend, ₹15,000 toolkit incentive, and collateral-free enterprise credit up to ₹3 Lakhs at 5% interest.",
+    "keywords": ["vishwakarma", "artisan", "carpenter", "blacksmith", "potter", "sculptor", "tailor", "mason", "craftsperson"],
+    "eligibility": [
+      "Artisan or craftsperson working with hands and tools in one of the 18 eligible traditional trades (Carpenter, Boat Maker, Armourer, Blacksmith, Hammer and Tool Kit Maker, Locksmith, Sculptor, Goldsmith, Potter, Cobbler, Mason, Basket/Mat/Broom Maker, Doll & Toy Maker, Barber, Garland Maker, Washerman, Tailor, Fishing Net Maker)",
+      "Minimum age 18 years; only one member per family eligible"
+    ],
+    "documents": [
+      {
+        "document_id": "doc_aadhaar",
+        "document_name": "Aadhaar Card",
+        "description": "Biometric Aadhaar authentication is mandatory.",
+        "mandatory": true,
+        "accepted_examples": ["Aadhaar card with linked active mobile number"]
+      },
+      {
+        "document_id": "doc_bank_passbook",
+        "document_name": "Bank Passbook",
+        "description": "Savings account linked with Aadhaar for DBT incentive transfers.",
+        "mandatory": true,
+        "accepted_examples": ["Active bank passbook"]
+      },
+      {
+        "document_id": "doc_ration_card",
+        "document_name": "Ration Card",
+        "description": "Family card to verify single-member per household rule.",
+        "mandatory": true,
+        "accepted_examples": ["Food security card / Family ration card"]
+      }
+    ],
+    "application_process": [
+      "Register via Common Services Centre (CSC) on pmvishwakarma.gov.in with biometric authentication.",
+      "Stage 1: Gram Panchayat / Urban Local Body verification of traditional artisan status.",
+      "Stage 2: District Implementation Committee (DIC) approval.",
+      "Stage 3: Screening Committee approval and issuance of digital PM Vishwakarma Certificate and ID Card.",
+      "Attend 5-7 days basic skill training; receive ₹15,000 e-voucher for modern toolkits.",
+      "Avail 1st tranche loan of up to ₹1 Lakh (18 months tenure) at concessional 5% interest."
+    ],
+    "fees": "Free registration at CSCs",
+    "processing_time": "20 to 30 days for tier verifications",
+    "application_url": "https://pmvishwakarma.gov.in",
+    "where_to_apply": "Nearest Common Services Centre (CSC)",
+    "important_notes": [
+      "Candidates who have availed previous government loans like PMEGP or PM SVANidhi must have repaid dues to qualify for Vishwakarma credit."
+    ],
+    "related_service_ids": ["pm_mudra_yojana", "udyam_msme_registration"],
+    "last_verified": "2026-08-25",
+    "verification_status": "verified"
+  },
+  {
+    "service_id": "rythu_bandhu_pmkisan",
+    "service_name": "PM-KISAN Samman Nidhi & State Farmer Support",
+    "category": "welfare-pensions",
+    "department": "Ministry of Agriculture & Farmers Welfare / State Agriculture Dept",
+    "portal_name": "PM-KISAN Portal & State Rythu Bandhu",
+    "jurisdiction": "central",
+    "description": "Income support of ₹6,000 per year in three equal instalments of ₹2,000 directly into bank accounts of all landholding farmer families across India.",
+    "keywords": ["pm kisan", "pmkisan", "farmer", "agriculture", "rythu bandhu", "crop investment", "kisan samman"],
+    "eligibility": [
+      "Small and marginal landholding farmer family owning cultivable land in their name",
+      "Institutional landholders, income taxpayers, government employees, and doctors/engineers/lawyers excluded"
+    ],
+    "documents": [
+      {
+        "document_id": "doc_aadhaar",
+        "document_name": "Aadhaar Card",
+        "description": "Mandatory for e-KYC authentication.",
+        "mandatory": true,
+        "accepted_examples": ["Aadhaar card with mobile link"]
+      },
+      {
+        "document_id": "doc_pattadar_passbook",
+        "document_name": "Land Record (Pattadar Passbook / 1-B / RoR)",
+        "description": "Proof of agricultural land ownership.",
+        "mandatory": true,
+        "accepted_examples": ["Pattadar passbook Khata number and Survey number extract"]
+      },
+      {
+        "document_id": "doc_bank_passbook",
+        "document_name": "Aadhaar-Seeded Bank Account",
+        "description": "Active savings account with NPCI mapping.",
+        "mandatory": true,
+        "accepted_examples": ["Bank passbook showing account number and IFSC"]
+      }
+    ],
+    "application_process": [
+      "Visit pmkisan.gov.in and click 'New Farmer Registration'.",
+      "Enter Aadhaar Number and select State, District, Sub-District, Block, and Village.",
+      "Enter Land Details (Survey / Khasra number, Khata number, Area in hectares).",
+      "Complete mandatory Aadhaar OTP e-KYC or face-authentication via PM-KISAN mobile app.",
+      "District Agriculture Officer / Nodal Officer inspects land records and forwards for approval."
+    ],
+    "fees": "Free on portal (nominal fee at CSC)",
+    "processing_time": "15 to 45 days for state verification cycle",
+    "application_url": "https://pmkisan.gov.in",
+    "where_to_apply": "PM-KISAN Portal, PM-KISAN App, or nearest CSC",
+    "important_notes": [
+      "Mandatory e-KYC must be completed to receive quarterly instalments.",
+      "Land records must be transferred and updated in the applicant's name before the scheme cut-off date."
+    ],
+    "related_service_ids": ["meeseva_pattadar_passbook", "pm_mudra_yojana"],
+    "last_verified": "2026-09-19",
+    "verification_status": "verified",
+    "popular": true
+  },
+  {
+    "service_id": "social_pension_aasara",
+    "service_name": "Social Security Pension (Old Age / Widow / Disability)",
+    "category": "welfare-pensions",
+    "department": "Panchayat Raj & Rural Development / SERP",
+    "portal_name": "Aasara Telangana / YSR Pension Kanuka AP",
+    "jurisdiction": "Telangana",
+    "description": "Monthly financial pension assistance to economically destitute senior citizens, widows, physically challenged persons, and beedi/toddy tappers.",
+    "keywords": ["pension", "aasara", "old age pension", "widow pension", "disability pension", "serp", "social welfare"],
+    "eligibility": [
+      "Old Age Pension: Age 57 years and above (in Telangana) from BPL household",
+      "Widow Pension: Age 18 years and above upon demise of husband",
+      "Disability Pension: Minimum 40% disability certified by SADAREM Medical Board"
+    ],
+    "documents": [
+      {
+        "document_id": "doc_aadhaar",
+        "document_name": "Aadhaar Card",
+        "description": "Proof of identity and age.",
+        "mandatory": true,
+        "accepted_examples": ["Aadhaar card copy"]
+      },
+      {
+        "document_id": "doc_ration_card",
+        "document_name": "Food Security Card (FSC)",
+        "description": "Establishing BPL economic criteria.",
+        "mandatory": true,
+        "accepted_examples": ["White Ration Card"]
+      },
+      {
+        "document_id": "doc_death_cert",
+        "document_name": "Death Certificate of Husband (for Widow Pension)",
+        "description": "Official municipal or panchayat death record of deceased spouse.",
+        "mandatory": false,
+        "accepted_examples": ["Hospital / Municipal Death Certificate"]
+      },
+      {
+        "document_id": "doc_disability_cert",
+        "document_name": "SADAREM / UDID Certificate (for Disability Pension)",
+        "description": "Assessing degree of disability >= 40%.",
+        "mandatory": false,
+        "accepted_examples": ["SADAREM Certificate with registration number"]
+      },
+      {
+        "document_id": "doc_bank_passbook",
+        "document_name": "Bank / Post Office Passbook",
+        "description": "For direct pension credit or biometric cash disbursement.",
+        "mandatory": true,
+        "accepted_examples": ["Savings passbook copy"]
+      }
+    ],
+    "application_process": [
+      "Submit prescribed pension application at local Gram Panchayat / Ward Office or MeeSeva centre.",
+      "Attach Aadhaar, ration card, and category-specific proof (death/disability certificate).",
+      "Mandal Parishad Development Officer (MPDO) / Municipal Commissioner conducts field verification.",
+      "Approved list submitted to District Collector for pension sanction order.",
+      "Monthly pension disbursed via biometric authentication at Gram Panchayat / Post Office / Bank."
+    ],
+    "fees": "Free of cost",
+    "processing_time": "30 to 60 days",
+    "application_url": "https://aasara.telangana.gov.in",
+    "where_to_apply": "Gram Panchayat Office, Ward Secretariat, or MeeSeva Counter",
+    "important_notes": [
+      "Only one pension is permissible per eligible person.",
+      "Pensioner must undergo annual Jeevan Pramaan / biometric living authentication."
+    ],
+    "related_service_ids": ["disability_udid_card", "meeseva_income_cert"],
+    "last_verified": "2026-08-15",
+    "verification_status": "verified"
+  },
+  {
+    "service_id": "disability_udid_card",
+    "service_name": "Unique Disability ID (UDID) / SADAREM Card",
+    "category": "health",
+    "department": "Department of Empowerment of Persons with Disabilities",
+    "portal_name": "Swavlamban Portal / SADAREM",
+    "jurisdiction": "central",
+    "description": "Nationwide single smart card verifying disability percentage, enabling access to travel concessions, pension schemes, assistive aids, and educational reservations.",
+    "keywords": ["udid", "disability", "sadarem", "swavlamban", "differently abled", "concession", "pwd"],
+    "eligibility": [
+      "Person with any of the 21 benchmark disabilities recognized under the RPwD Act 2016"
+    ],
+    "documents": [
+      {
+        "document_id": "doc_aadhaar",
+        "document_name": "Aadhaar Card",
+        "description": "Valid Aadhaar card.",
+        "mandatory": true,
+        "accepted_examples": ["Aadhaar card copy"]
+      },
+      {
+        "document_id": "doc_passport_photo",
+        "document_name": "Passport Photograph",
+        "description": "Recent photograph showing disability if visually apparent.",
+        "mandatory": true,
+        "accepted_examples": ["Color photo on white background"]
+      },
+      {
+        "document_id": "doc_medical_cert",
+        "document_name": "Existing Medical Reports / Diagnosis Records",
+        "description": "Clinical diagnosis reports from government hospital or certified medical specialist.",
+        "mandatory": true,
+        "accepted_examples": ["Audiometry report (hearing), clinical eye tests (vision), orthopaedic diagnosis"]
+      }
+    ],
+    "application_process": [
+      "Register on Swavlamban portal (swavlambancard.gov.in).",
+      "Fill personal, disability, and employment details; upload photo and medical records.",
+      "System schedules appointment at the District Hospital Medical Board.",
+      "Applicant appears before the medical board of specialists for physical assessment.",
+      "Medical board enters disability percentage; Chief Medical Officer (CMO) approves.",
+      "E-UDID card generated online; physical tamper-proof plastic card delivered via Speed Post."
+    ],
+    "fees": "Free of cost",
+    "processing_time": "30 to 45 days",
+    "application_url": "https://www.swavlambancard.gov.in",
+    "where_to_apply": "Swavlamban Portal / District Hospital Medical Board",
+    "important_notes": [
+      "UDID card is valid across all states in India, eliminating the need to obtain multiple state certificates.",
+      "Permanent cards issued for non-progressive lifelong conditions."
+    ],
+    "related_service_ids": ["social_pension_aasara", "ayushman_bharat_card"],
+    "last_verified": "2026-09-07",
+    "verification_status": "verified"
+  },
+  {
+    "service_id": "ayushman_bharat_card",
+    "service_name": "Ayushman Bharat PM-JAY & Aarogyasri Card",
+    "category": "health",
+    "department": "National Health Authority (NHA) & State Health Agency",
+    "portal_name": "Ayushman Bharat Portal / Aarogyasri Portal",
+    "jurisdiction": "central",
+    "description": "Provides cashless health insurance coverage up to ₹5 Lakhs per family per year for secondary and tertiary care hospitalization across empanelled public and private hospitals.",
+    "keywords": ["ayushman bharat", "pmjay", "aarogyasri", "health card", "cashless treatment", "hospital", "bhopal"],
+    "eligibility": [
+      "Families identified in SECC 2011 database or possessing state Food Security / White Ration Card",
+      "Senior citizens aged 70 and above (expanded universal coverage regardless of income)"
+    ],
+    "documents": [
+      {
+        "document_id": "doc_aadhaar",
+        "document_name": "Aadhaar Card",
+        "description": "Mandatory for instant Aadhaar e-KYC.",
+        "mandatory": true,
+        "accepted_examples": ["Aadhaar card with mobile OTP or fingerprint"]
+      },
+      {
+        "document_id": "doc_ration_card",
+        "document_name": "Food Security / Ration Card",
+        "description": "Proof of family unit composition.",
+        "mandatory": true,
+        "accepted_examples": ["Valid state white ration card"]
+      }
+    ],
+    "application_process": [
+      "Check eligibility on beneficiary portal (beneficiary.nha.gov.in) using mobile number or Ration Card number.",
+      "Select family member name and click 'e-KYC'.",
+      "Verify via Aadhaar OTP or Face Authentication via Ayushman App.",
+      "Upload live camera photo; matching score calculated against Aadhaar record.",
+      "Upon instant approval, download PVC-ready Ayushman Card PDF containing unique PM-JAY ID."
+    ],
+    "fees": "Free of cost",
+    "processing_time": "Instant to 24 hours",
+    "application_url": "https://beneficiary.nha.gov.in",
+    "where_to_apply": "Beneficiary NHA Portal, Ayushman App, or Aarogya Mithra desk at any government/empanelled private hospital",
+    "important_notes": [
+      "No paper claims needed: treatment is completely cashless and paperless at empanelled hospitals upon presenting the card.",
+      "All pre-existing conditions are covered from day one."
+    ],
+    "related_service_ids": ["disability_udid_card", "social_pension_aasara"],
+    "last_verified": "2026-09-22",
+    "verification_status": "verified",
+    "popular": true
+  },
+  {
+    "service_id": "udyam_msme_registration",
+    "service_name": "Udyam (MSME) Registration",
+    "category": "business",
+    "department": "Ministry of Micro, Small and Medium Enterprises (MSME)",
+    "portal_name": "Official Udyam Registration Portal",
+    "jurisdiction": "central",
+    "description": "Zero-cost official central government registration for Micro, Small, and Medium enterprises offering priority lending, patent rebates, and government tender exemptions.",
+    "keywords": ["udyam", "msme", "business registration", "small enterprise", "udyogaadhaar", "priority lending"],
+    "eligibility": [
+      "Any entity starting or operating micro, small, or medium manufacturing or service business in India"
+    ],
+    "documents": [
+      {
+        "document_id": "doc_aadhaar",
+        "document_name": "Aadhaar Card of Proprietor / Managing Partner / Director",
+        "description": "Mandatory for online OTP verification.",
+        "mandatory": true,
+        "accepted_examples": ["Aadhaar card with active mobile"]
+      },
+      {
+        "document_id": "doc_pan",
+        "document_name": "PAN Card of Business or Proprietor",
+        "description": "PAN verification is mandatory for Udyam.",
+        "mandatory": true,
+        "accepted_examples": ["Proprietor PAN or Company/LLP PAN"]
+      },
+      {
+        "document_id": "doc_bank_passbook",
+        "document_name": "Bank Account Details",
+        "description": "Business or proprietor bank account number and IFSC code.",
+        "mandatory": true,
+        "accepted_examples": ["Current / Savings bank passbook or statement"]
+      }
+    ],
+    "application_process": [
+      "Visit the ONLY official government portal: udyamregistration.gov.in.",
+      "Click 'For New Entrepreneurs who are not Registered yet as MSME'.",
+      "Enter 12-digit Aadhaar Number and Name as per Aadhaar; complete OTP validation.",
+      "Enter PAN details and organization type (Proprietorship, Partnership, Private Limited, etc.).",
+      "Enter enterprise name, plant/office location, NIC 5-digit business activity code, and number of employees.",
+      "Submit with final OTP. Download instant Udyam Registration Certificate with dynamic QR code."
+    ],
+    "fees": "Completely Free. The Government of India charges NO fee for Udyam registration.",
+    "processing_time": "Instant to 3 working days",
+    "application_url": "https://udyamregistration.gov.in",
+    "where_to_apply": "udyamregistration.gov.in (Official Portal)",
+    "important_notes": [
+      "BEWARE: Numerous private fraudulent websites charge ₹1,000 - ₹3,000 for Udyam. Never pay any fee. The official portal ends strictly in .gov.in and is 100% free.",
+      "GST registration is exempted only for enterprises not covered under mandatory GST threshold limits."
+    ],
+    "related_service_ids": ["pm_mudra_yojana", "gst_registration_new"],
+    "last_verified": "2026-09-24",
+    "verification_status": "verified",
+    "popular": true
+  },
+  {
+    "service_id": "gst_registration_new",
+    "service_name": "GST Registration (New Business)",
+    "category": "business",
+    "department": "Goods and Services Tax Network (GSTN) / CBIC",
+    "portal_name": "GST Common Portal",
+    "jurisdiction": "central",
+    "description": "Mandatory 15-digit Goods and Services Tax Identification Number (GSTIN) for businesses exceeding turnover thresholds (₹40L for goods, ₹20L for services) or engaging in inter-state e-commerce.",
+    "keywords": ["gst", "gstin", "gst portal", "business tax", "tax invoice", "ecommerce", "sales tax"],
+    "eligibility": [
+      "Businesses exceeding aggregate turnover limits",
+      "Mandatory for e-commerce sellers, inter-state traders, and casual taxable persons"
+    ],
+    "documents": [
+      {
+        "document_id": "doc_pan",
+        "document_name": "PAN Card of Business / Proprietor",
+        "description": "Primary base for GSTIN.",
+        "mandatory": true,
+        "accepted_examples": ["PAN card"]
+      },
+      {
+        "document_id": "doc_aadhaar",
+        "document_name": "Aadhaar Card of Promoters / Partners",
+        "description": "For Aadhaar authentication avoiding physical site inspection.",
+        "mandatory": true,
+        "accepted_examples": ["Aadhaar card copy"]
+      },
+      {
+        "document_id": "doc_address_proof",
+        "document_name": "Proof of Principal Place of Business",
+        "description": "Electricity bill, municipal khata, property tax receipt, along with Rent Agreement and Landlord NOC if rented.",
+        "mandatory": true,
+        "accepted_examples": ["Electricity bill within 2 months + Rent agreement with Owner NOC"]
+      },
+      {
+        "document_id": "doc_bank_passbook",
+        "document_name": "Bank Account Proof",
+        "description": "First page of passbook, bank statement, or cancelled cheque with pre-printed account holder name.",
+        "mandatory": true,
+        "accepted_examples": ["Cancelled cheque or bank statement with address"]
+      }
+    ],
+    "application_process": [
+      "Access gst.gov.in -> Services -> Registration -> New Registration.",
+      "Part A: Enter PAN, Email, and Mobile number; receive Temporary Reference Number (TRN).",
+      "Part B: Log in using TRN and fill Business Details, Partners, Principal Place of Business, Goods/Services HSN codes.",
+      "Opt for Aadhaar Authentication of Authorized Signatory via biometric/OTP link.",
+      "Submit application with DSC (for companies/LLPs) or EVC (Aadhaar OTP for proprietorship).",
+      "Upon validation (approx. 7 working days), GSTIN certificate (Form GST REG-06) is issued."
+    ],
+    "fees": "Government fee: Free",
+    "processing_time": "7 working days (if Aadhaar authenticated without query)",
+    "application_url": "https://www.gst.gov.in",
+    "where_to_apply": "GST Common Portal (gst.gov.in)",
+    "important_notes": [
+      "If Aadhaar authentication is skipped or fails, field inspection of business premises by the tax officer is mandatory before registration."
+    ],
+    "related_service_ids": ["udyam_msme_registration", "pan_card_application"],
+    "last_verified": "2026-09-11",
+    "verification_status": "verified"
+  },
+  {
+    "service_id": "digilocker_account_setup",
+    "service_name": "DigiLocker Setup & Document Sync",
+    "category": "identity",
+    "department": "Ministry of Electronics & Information Technology (MeitY)",
+    "portal_name": "DigiLocker Platform",
+    "jurisdiction": "central",
+    "description": "Official flagship cloud document repository under Digital India. Legally equivalent to original physical documents under Rule 9A of the IT Rules 2016 for Driving Licences, RC, Aadhaar, and mark sheets.",
+    "keywords": ["digilocker", "digital india", "documents", "meity", "cloud storage", "driving licence", "marksheet"],
+    "eligibility": [
+      "Any Indian citizen holding a valid Aadhaar card with mobile linkage"
+    ],
+    "documents": [
+      {
+        "document_id": "doc_aadhaar",
+        "document_name": "Aadhaar Card",
+        "description": "12-digit Aadhaar number for initial account authentication.",
+        "mandatory": true,
+        "accepted_examples": ["Aadhaar number with linked mobile for OTP"]
+      }
+    ],
+    "application_process": [
+      "Visit digilocker.gov.in or install the DigiLocker App from Google Play / Apple App Store.",
+      "Click 'Sign Up', enter full name as per Aadhaar, date of birth, mobile number, and set a 6-digit security PIN.",
+      "Enter Aadhaar Number and verify using OTP received on UIDAI registered mobile.",
+      "Go to 'Issued Documents' -> Search for issuing department (e.g. MoRTH for Driving Licence, CBSE for Class 10/12 Marksheet, Revenue Department for Caste/Income).",
+      "Enter registration/roll number; document is fetched directly from the issuer's secure database and digitally signed."
+    ],
+    "fees": "Completely Free",
+    "processing_time": "Instant",
+    "application_url": "https://www.digilocker.gov.in",
+    "where_to_apply": "DigiLocker Website or Mobile App",
+    "important_notes": [
+      "Documents in the 'Issued' section of DigiLocker are treated at par with original physical documents by police, transport authorities, and airports.",
+      "Do not manually upload photos into 'Drive' and expect legal equivalence; documents must be pulled from the 'Issued' issuer database."
+    ],
+    "related_service_ids": ["aadhaar_enrolment_update", "driving_licence_learners"],
+    "last_verified": "2026-09-29",
+    "verification_status": "verified",
+    "popular": true
+  },
+  {
+    "service_id": "police_clearance_certificate",
+    "service_name": "Police Clearance Certificate (PCC)",
+    "category": "legal-police",
+    "department": "State Police / Ministry of External Affairs",
+    "portal_name": "Passport Seva / State Police Citizen Portal",
+    "jurisdiction": "central",
+    "description": "Official character and background verification certificate certifying an individual has no adverse criminal record, essential for foreign immigration, employment, and visas.",
+    "keywords": ["pcc", "police clearance", "character certificate", "police verification", "immigration", "visa"],
+    "eligibility": [
+      "Indian passport holder seeking long-term visa, permanent residency, work permit, or immigration abroad"
+    ],
+    "documents": [
+      {
+        "document_id": "doc_passport",
+        "document_name": "Valid Indian Passport",
+        "description": "Original passport with at least 6 months validity.",
+        "mandatory": true,
+        "accepted_examples": ["Current original passport + self-attested copies of first 2 and last 2 pages"]
+      },
+      {
+        "document_id": "doc_address_proof",
+        "document_name": "Proof of Present Address",
+        "description": "Proof of present address if different from passport address.",
+        "mandatory": true,
+        "accepted_examples": ["Aadhaar card", "Electricity bill", "Registered Rent Agreement"]
+      },
+      {
+        "document_id": "doc_visa_proof",
+        "document_name": "Visa / Employment Letter / Immigration Request",
+        "description": "Proof demonstrating requirement of PCC for foreign country.",
+        "mandatory": true,
+        "accepted_examples": ["Job offer letter", "Embassy visa application checklist", "University admission letter"]
+      }
+    ],
+    "application_process": [
+      "Apply online on Passport Seva portal (passportindia.gov.in) under 'Apply for Police Clearance Certificate'.",
+      "Pay application fee (₹500) and book appointment slot at nearest PSK / POPSK.",
+      "Visit PSK with original passport and documents; submit biometrics.",
+      "Application is dispatched to local District Police Special Branch and local police station.",
+      "Local police officer conducts field verification at residence.",
+      "Upon clean report, PCC is printed and sent via Speed Post or collected from PSK."
+    ],
+    "fees": "₹500 standard MEA fee",
+    "processing_time": "7 to 21 working days (dependent on local police station enquiry speed)",
+    "application_url": "https://www.passportindia.gov.in",
+    "where_to_apply": "Passport Seva Kendra (PSK) online booking",
+    "important_notes": [
+      "Ensure applicant has no pending FIRs or court summons in their name.",
+      "Local state police portals also issue state-level character certificates for domestic employment or government tenders."
+    ],
+    "related_service_ids": ["passport_fresh_application"],
+    "last_verified": "2026-09-03",
+    "verification_status": "verified"
+  },
+  {
+    "service_id": "rti_application_online",
+    "service_name": "Right to Information (RTI) Application",
+    "category": "legal-police",
+    "department": "Department of Personnel and Training (DoPT) / State Information Commissions",
+    "portal_name": "RTI Online Portal",
+    "jurisdiction": "central",
+    "description": "File an official information request under the Right to Information Act 2005 to inspect government records, seek audit expenditure details, or review processing delays.",
+    "keywords": ["rti", "right to information", "dopt", "public information officer", "pio", "first appeal", "transparency"],
+    "eligibility": [
+      "Any Indian citizen"
+    ],
+    "documents": [
+      {
+        "document_id": "doc_identity_proof",
+        "document_name": "Proof of Identity",
+        "description": "Name and contact address of applicant.",
+        "mandatory": true,
+        "accepted_examples": ["Aadhaar or Voter ID for citizen identity"]
+      },
+      {
+        "document_id": "doc_bpl_proof",
+        "document_name": "BPL Certificate (if claiming fee exemption)",
+        "description": "Antyodaya or BPL Ration card copy.",
+        "mandatory": false,
+        "accepted_examples": ["Food security card / BPL certificate"]
+      }
+    ],
+    "application_process": [
+      "Visit rtionline.gov.in for Central Ministries or state-specific RTI portals for state departments.",
+      "Select 'Submit Request' and choose the relevant Ministry / Public Authority.",
+      "Enter applicant contact particulars (email, mobile, address).",
+      "Draft concise, specific questions (up to 3,000 characters) seeking concrete records/documents.",
+      "Pay application fee of ₹10 via UPI, Net Banking, or Debit Card (BPL citizens exempted).",
+      "Receive registration number to track Public Information Officer (PIO) response within statutory 30 days."
+    ],
+    "fees": "₹10 per application (Free for BPL citizens)",
+    "processing_time": "Statutory limit: 30 days (48 hours if life and liberty is involved)",
+    "application_url": "https://rtionline.gov.in",
+    "where_to_apply": "RTI Online Portal (rtionline.gov.in)",
+    "important_notes": [
+      "Frame questions clearly asking for existing records, orders, or files rather than asking for opinions or advice.",
+      "If response is not received within 30 days, applicant can file a First Appeal free of charge within 30 days."
+    ],
+    "related_service_ids": ["police_clearance_certificate"],
+    "last_verified": "2026-09-17",
+    "verification_status": "verified"
+  },
+  {
+    "service_id": "electricity_new_connection",
+    "service_name": "New Electricity Service Connection",
+    "category": "transport",
+    "department": "State Power Distribution Corporation (TSSPDCL / TSNPDCL)",
+    "portal_name": "TSSPDCL Online Portal / MeeSeva",
+    "jurisdiction": "Telangana",
+    "description": "Apply for a new domestic (LT-I), commercial (LT-II), or industrial power supply meter connection for residential buildings and commercial properties.",
+    "keywords": ["electricity", "power", "tsspdcl", "tsnpdcl", "discom", "meter", "current connection", "uscno"],
+    "eligibility": [
+      "Legal owner or lawful tenant of the premises where electricity connection is required"
+    ],
+    "documents": [
+      {
+        "document_id": "doc_ownership_proof",
+        "document_name": "Proof of Ownership / Occupancy",
+        "description": "Registered Sale Deed, Municipal Property Tax Receipt, or Building Permission Order.",
+        "mandatory": true,
+        "accepted_examples": ["Registered Deed", "Recent GHMC / Municipal Assessment receipt", "Rent agreement with landlord NOC if tenant"]
+      },
+      {
+        "document_id": "doc_identity_proof",
+        "document_name": "Proof of Identity",
+        "description": "Aadhaar Card or Voter ID of applicant.",
+        "mandatory": true,
+        "accepted_examples": ["Aadhaar card copy"]
+      },
+      {
+        "document_id": "doc_wiring_contractor_test",
+        "document_name": "Wiring Contractor Completion Certificate",
+        "description": "Test report certified by a licensed electrical wiring contractor.",
+        "mandatory": true,
+        "accepted_examples": ["Form A/B wiring completion report"]
+      }
+    ],
+    "application_process": [
+      "Open state discom portal (tssspdcl.cgg.gov.in) and click 'LT New Connection Application'.",
+      "Enter applicant particulars, category (Domestic LT Category I), and required connected load in Watts/kW.",
+      "Upload ownership deed, property tax receipt, and wiring test report.",
+      "Pay application registration fee, service line charges, and development security deposit online.",
+      "Assistant Engineer (Operations) inspects building site and verifies meter board wiring.",
+      "Smart electricity meter installed and power supply released within statutory timeline."
+    ],
+    "fees": "Development charges + Security deposit + Meter cost (approx. ₹1,500 - ₹3,500 for standard 1kW-2kW domestic load)",
+    "processing_time": "7 to 15 working days",
+    "application_url": "https://www.tssspdcl.com",
+    "where_to_apply": "TSSPDCL / TSNPDCL Discom portal or MeeSeva Centre",
+    "important_notes": [
+      "Ensure there are no pending electricity arrears on the premises from previous meters.",
+      "Approved municipal building permission is mandatory for multi-storied apartments or commercial buildings."
+    ],
+    "related_service_ids": ["dharani_encumbrance_certificate"],
+    "last_verified": "2026-08-28",
+    "verification_status": "verified"
+  },
+  {
+    "service_id": "meeseva_birth_cert",
+    "service_name": "Birth Certificate (Late Registration / Copy)",
+    "category": "certificates",
+    "department": "Municipal Administration & Urban Development / Panchayat Raj",
+    "portal_name": "CDMA Telangana / GHMC Citizen Portal / MeeSeva",
+    "jurisdiction": "Telangana",
+    "description": "Digitally certified extract of the Registrar of Births and Deaths proving official date, time, and place of birth.",
+    "keywords": ["birth certificate", "ghmc", "cdma", "meeseva", "janana", "dob", "vital statistics"],
+    "eligibility": [
+      "Parents of the child, or individual seeking copy of registered birth",
+      "Institutional births registered by hospital within 21 days, or non-institutional births verified by local authority"
+    ],
+    "documents": [
+      {
+        "document_id": "doc_hospital_discharge",
+        "document_name": "Hospital Discharge Summary / Form 1 Birth Report",
+        "description": "Delivery discharge summary signed by Chief Medical Officer of hospital.",
+        "mandatory": true,
+        "accepted_examples": ["Institutional birth report with hospital stamp"]
+      },
+      {
+        "document_id": "doc_parent_aadhaar",
+        "document_name": "Mother and Father Aadhaar Cards",
+        "description": "For parent identity and address verification.",
+        "mandatory": true,
+        "accepted_examples": ["Aadhaar copies of both parents"]
+      },
+      {
+        "document_id": "doc_affidavit",
+        "document_name": "Non-Availability / Magistrate Order (for Late Registration > 1 Year)",
+        "description": "Required if birth was not reported within 1 year of occurrence.",
+        "mandatory": false,
+        "accepted_examples": ["Revenue Divisional Officer (RDO) / Judicial Magistrate 1st Class order"]
+      }
+    ],
+    "application_process": [
+      "For births within 21 days: Hospital enters birth record directly into CDMA / GHMC portal.",
+      "Parent visits MeeSeva with hospital discharge receipt to register child name and pay fee.",
+      "Registrar of Births approves the child name addition.",
+      "Download digitally signed Birth Certificate with QR code from MeeSeva portal."
+    ],
+    "fees": "₹45 at MeeSeva (Late fee penalties apply if delayed beyond 30 days)",
+    "processing_time": "3 to 7 working days (Immediate if already registered and only printing copy)",
+    "application_url": "https://meeseva.telangana.gov.in",
+    "where_to_apply": "MeeSeva Centre or GHMC Citizen Service Centre",
+    "important_notes": [
+      "Add child's official name early: adding child name after 1 year requires additional municipal approvals."
+    ],
+    "related_service_ids": ["meeseva_death_cert", "aadhaar_enrolment_update"],
+    "last_verified": "2026-09-16",
+    "verification_status": "verified",
+    "popular": true
+  },
+  {
+    "service_id": "meeseva_death_cert",
+    "service_name": "Death Certificate",
+    "category": "certificates",
+    "department": "Municipal Administration / Panchayat Raj",
+    "portal_name": "CDMA / GHMC / MeeSeva",
+    "jurisdiction": "Telangana",
+    "description": "Official legal document stating the date, location, and cause of demise of an individual, vital for property mutation, insurance claims, and legal heir procedures.",
+    "keywords": ["death certificate", "marana", "ghmc", "meeseva", "cremation", "insurance claim"],
+    "eligibility": [
+      "Close family member, legal heir, or lawful representative of the deceased"
+    ],
+    "documents": [
+      {
+        "document_id": "doc_hospital_cause_of_death",
+        "document_name": "Hospital Medical Cause of Death / Crematorium Receipt",
+        "description": "Form 4/4A issued by attending physician or receipt from registered burial ground/crematorium.",
+        "mandatory": true,
+        "accepted_examples": ["Hospital Form 4 signed by CMO", "Crematorium / Graveyard burial slip"]
+      },
+      {
+        "document_id": "doc_deceased_aadhaar",
+        "document_name": "Deceased Person Aadhaar / Identity Proof",
+        "description": "Identity card of the deceased.",
+        "mandatory": true,
+        "accepted_examples": ["Aadhaar or Voter card copy of deceased"]
+      },
+      {
+        "document_id": "doc_applicant_aadhaar",
+        "document_name": "Applicant (Informant) Aadhaar Card",
+        "description": "Aadhaar of family member reporting demise.",
+        "mandatory": true,
+        "accepted_examples": ["Aadhaar copy of spouse/son/daughter"]
+      }
+    ],
+    "application_process": [
+      "Inform local Registrar (Municipal Corporation / Gram Panchayat) within 21 days of demise.",
+      "Submit medical certificate or cremation slip and deceased identity cards at MeeSeva.",
+      "Registrar verifies hospital and crematorium records.",
+      "Digitally signed Death Certificate issued with unique registration number and QR code."
+    ],
+    "fees": "₹45 MeeSeva fee",
+    "processing_time": "3 to 7 working days",
+    "application_url": "https://meeseva.telangana.gov.in",
+    "where_to_apply": "MeeSeva Centre or Municipal Ward Office",
+    "important_notes": [
+      "Obtain multiple certified copies as original death certificates are required across banking, insurance, and revenue offices."
+    ],
+    "related_service_ids": ["meeseva_legal_heir_cert", "social_pension_aasara"],
+    "last_verified": "2026-09-04",
+    "verification_status": "verified"
+  },
+  {
+    "service_id": "meeseva_legal_heir_cert",
+    "service_name": "Family Member / Legal Heir Certificate",
+    "category": "certificates",
+    "department": "Revenue Department",
+    "portal_name": "MeeSeva Portal",
+    "jurisdiction": "Telangana",
+    "description": "Certifies the legal surviving family members of a deceased government servant or citizen to claim terminal benefits, gratuity, pensions, or transfer family property.",
+    "keywords": ["legal heir", "family member certificate", "succession", "revenue", "tahsildar", "meeseva", "heir"],
+    "eligibility": [
+      "Surviving spouse, children, or direct dependent parents of the deceased"
+    ],
+    "documents": [
+      {
+        "document_id": "doc_death_cert",
+        "document_name": "Original Death Certificate of Deceased",
+        "description": "Death certificate issued by Municipal Corporation or Panchayat.",
+        "mandatory": true,
+        "accepted_examples": ["Digitally signed Death Certificate"]
+      },
+      {
+        "document_id": "doc_ration_card",
+        "document_name": "Ration Card / Food Security Card",
+        "description": "Establishing family relationship units.",
+        "mandatory": true,
+        "accepted_examples": ["Food security card showing family members"]
+      },
+      {
+        "document_id": "doc_aadhaar",
+        "document_name": "Aadhaar Cards of All Surviving Legal Heirs",
+        "description": "Aadhaar cards of spouse, sons, and daughters.",
+        "mandatory": true,
+        "accepted_examples": ["Aadhaar copies of all heirs"]
+      },
+      {
+        "document_id": "doc_affidavit",
+        "document_name": "Notarized Family Tree Affidavit",
+        "description": "Notarized affidavit on Non-Judicial stamp paper listing all surviving family members and stating no other heirs exist.",
+        "mandatory": true,
+        "accepted_examples": ["Notarized affidavit on ₹100 stamp paper"]
+      }
+    ],
+    "application_process": [
+      "Submit application at MeeSeva counter with death certificate, ration card, and family tree affidavit.",
+      "Revenue Inspector conducts field enquiry and records statements from local neighbors and village elders.",
+      "Notice may be published on notice board calling for any objections.",
+      "Upon clearance, Tahsildar issues the Family Member / Legal Heir Certificate."
+    ],
+    "fees": "₹45 MeeSeva statutory fee",
+    "processing_time": "15 to 30 working days",
+    "application_url": "https://meeseva.telangana.gov.in",
+    "where_to_apply": "MeeSeva Centre",
+    "important_notes": [
+      "For complex estates, disputed properties, or large bank deposits exceeding statutory limits, civil court Succession Certificate is required instead."
+    ],
+    "related_service_ids": ["meeseva_death_cert", "social_pension_aasara"],
+    "last_verified": "2026-08-22",
+    "verification_status": "verified"
+  },
+  {
+    "service_id": "fssai_food_licence",
+    "service_name": "FSSAI Food Business Licence & Registration",
+    "category": "business",
+    "department": "Food Safety and Standards Authority of India (FSSAI)",
+    "portal_name": "FoSCoS Portal",
+    "jurisdiction": "central",
+    "description": "Mandatory 14-digit food safety registration or state licence for food business operators (restaurants, bakeries, cloud kitchens, grocery stores, food trucks).",
+    "keywords": ["fssai", "foscos", "food licence", "restaurant", "food safety", "cloud kitchen", "catering"],
+    "eligibility": [
+      "Basic Registration: Petty food manufacturers or businesses with annual turnover up to ₹12 Lakhs",
+      "State Licence: Annual turnover between ₹12 Lakhs and ₹20 Crores"
+    ],
+    "documents": [
+      {
+        "document_id": "doc_passport_photo",
+        "document_name": "Passport Photo of Food Business Operator",
+        "description": "Photo of proprietor or authorized partner.",
+        "mandatory": true,
+        "accepted_examples": ["Color photo"]
+      },
+      {
+        "document_id": "doc_identity_proof",
+        "document_name": "Government Photo ID Proof",
+        "description": "Aadhaar Card, PAN Card, or Voter ID.",
+        "mandatory": true,
+        "accepted_examples": ["Aadhaar card copy"]
+      },
+      {
+        "document_id": "doc_address_proof",
+        "document_name": "Proof of Business Premises",
+        "description": "Rent agreement, electricity bill, or municipal trade licence.",
+        "mandatory": true,
+        "accepted_examples": ["Electricity bill + rent agreement"]
+      }
+    ],
+    "application_process": [
+      "Visit FoSCoS portal (foscos.fssai.gov.in).",
+      "Click 'Apply for New License/Registration' and select state.",
+      "Select type of food business (Manufacturer, Trade/Retail, Food Services).",
+      "Upload photo, government ID, and address proof; declare food category products.",
+      "Pay annual government fee online.",
+      "Food Safety Officer approves registration; 14-digit FSSAI certificate generated online."
+    ],
+    "fees": "Basic Registration: ₹100 per year | State License: ₹2,000 to ₹5,000 per year",
+    "processing_time": "7 to 30 days (Basic registration often within 7-10 days)",
+    "application_url": "https://foscos.fssai.gov.in",
+    "where_to_apply": "FoSCoS Portal (foscos.fssai.gov.in)",
+    "important_notes": [
+      "Displaying the 14-digit FSSAI number at the food premises and on packaging/bills is legally mandatory."
+    ],
+    "related_service_ids": ["udyam_msme_registration", "gst_registration_new"],
+    "last_verified": "2026-09-09",
+    "verification_status": "verified"
+  },
+  {
+    "service_id": "eshram_card_registration",
+    "service_name": "e-Shram Card (Unorganised Worker Registration)",
+    "category": "business",
+    "department": "Ministry of Labour and Employment",
+    "portal_name": "e-Shram Portal",
+    "jurisdiction": "central",
+    "description": "Universal 12-digit UAN card creating a national database of unorganized workers (construction workers, migrant laborers, gig workers, street vendors, domestic help) providing social security benefits and accidental insurance.",
+    "keywords": ["eshram", "labour card", "unorganised worker", "gig worker", "construction worker", "labour", "uan"],
+    "eligibility": [
+      "Unorganized worker aged between 16 and 59 years",
+      "Not a member of EPFO (EPF) or ESIC, and not an income tax payee"
+    ],
+    "documents": [
+      {
+        "document_id": "doc_aadhaar",
+        "document_name": "Aadhaar Card (with linked mobile)",
+        "description": "Aadhaar verification via OTP or biometric.",
+        "mandatory": true,
+        "accepted_examples": ["Aadhaar card copy"]
+      },
+      {
+        "document_id": "doc_bank_passbook",
+        "document_name": "Active Savings Bank Account",
+        "description": "For direct benefit transfers during welfare scheme rollouts.",
+        "mandatory": true,
+        "accepted_examples": ["Bank passbook with account number and IFSC"]
+      }
+    ],
+    "application_process": [
+      "Visit eshram.gov.in and click 'Register on e-Shram'.",
+      "Enter Aadhaar linked mobile number and captcha; verify with OTP.",
+      "Enter address, educational qualification, primary occupation (select from National Classification of Occupations list).",
+      "Enter bank account details.",
+      "Preview declaration and submit; instant UAN e-Shram Card is generated and downloadable."
+    ],
+    "fees": "Completely Free",
+    "processing_time": "Instant",
+    "application_url": "https://eshram.gov.in",
+    "where_to_apply": "e-Shram Portal (eshram.gov.in) or nearest CSC",
+    "important_notes": [
+      "Workers registered on e-Shram are eligible for ₹2 Lakhs accidental death/permanent disability cover under PMSBY."
+    ],
+    "related_service_ids": ["pm_vishwakarma_scheme", "aadhaar_enrolment_update"],
+    "last_verified": "2026-09-21",
+    "verification_status": "verified"
+  },
+  {
+    "service_id": "epfo_uan_member_passbook",
+    "service_name": "EPF Services (UAN Activation & Passbook)",
+    "category": "business",
+    "department": "Employees' Provident Fund Organisation (EPFO)",
+    "portal_name": "EPFO Unified Member Portal",
+    "jurisdiction": "central",
+    "description": "Activate Universal Account Number (UAN), download EPF passbook, track monthly employer provident fund contributions, and file online PF withdrawal or transfer claims.",
+    "keywords": ["epfo", "epf", "uan", "provident fund", "pf passbook", "pf withdrawal", "form 19", "form 10c"],
+    "eligibility": [
+      "Salaried employee in any establishment with 20 or more persons enrolled under EPF scheme"
+    ],
+    "documents": [
+      {
+        "document_id": "doc_aadhaar",
+        "document_name": "Aadhaar Card",
+        "description": "Aadhaar must be linked to UAN for member e-KYC and online claim submissions.",
+        "mandatory": true,
+        "accepted_examples": ["Aadhaar card linked with mobile OTP"]
+      },
+      {
+        "document_id": "doc_pan",
+        "document_name": "PAN Card",
+        "description": "Mandatory to avoid 34.6% maximum TDS rate on withdrawals before 5 years of service.",
+        "mandatory": true,
+        "accepted_examples": ["PAN card uploaded in KYC"]
+      },
+      {
+        "document_id": "doc_bank_passbook",
+        "document_name": "Bank Account with Cheque Leaf",
+        "description": "Bank account approved in EPFO KYC with pre-printed cheque leaf upload.",
+        "mandatory": true,
+        "accepted_examples": ["Cancelled cheque showing name, account number, and IFSC"]
+      }
+    ],
+    "application_process": [
+      "Access unifiedportal-mem.epfindia.gov.in.",
+      "Click 'Activate UAN', enter 12-digit UAN provided by employer, Aadhaar, Name, and DoB.",
+      "Verify OTP sent to Aadhaar linked mobile and create a strong password.",
+      "Log in to portal, check 'Manage' -> 'KYC' to ensure Bank, PAN, and Aadhaar are approved.",
+      "To download passbook or file claims (Form 19/10C/31), access member passbook portal or UMANG app."
+    ],
+    "fees": "Free of cost",
+    "processing_time": "Online PF claims settled within 3 to 10 working days",
+    "application_url": "https://unifiedportal-mem.epfindia.gov.in",
+    "where_to_apply": "EPFO Member Portal or UMANG App",
+    "important_notes": [
+      "Member name, father name, and DoB in EPF records MUST match Aadhaar exactly. Any minor mismatch blocks online claims."
+    ],
+    "related_service_ids": ["pan_card_application", "aadhaar_enrolment_update"],
+    "last_verified": "2026-09-26",
+    "verification_status": "verified"
+  }
+]
